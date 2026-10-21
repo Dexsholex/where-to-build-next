@@ -74,6 +74,7 @@ Step 01 downloads about 210 MB from HDX and the JRC and stops if any file's chec
 | Schools | GRID3 NGA Education Facilities, 2020 | CC BY |
 | Boundaries | OCHA subnational administrative boundaries (COD-AB) | CC BY-IGO |
 | Speed targets | Nigerian National Broadband Plan 2020–2025, pp. 36, 38 and 40 | public document |
+| Site reach | ITU (2022) *Guide for procuring last-mile connectivity data networks*, Table 4, p. 12: mobile cellular range 5 to 15 km | public document |
 | Satellite layer (tool only) | EOxCloudless 2023 by EOX IT Services GmbH (contains modified Copernicus Sentinel data 2023) | CC BY-NC-SA 4.0 |
 | Cell positions (check only) | OpenCelliD, opencellid.org, June 2024 snapshot via the UN Smart Maps Group copy on Source Cooperative | CC BY-SA 4.0 |
 
@@ -83,7 +84,7 @@ Speedtest® by Ookla® Global Fixed and Mobile Network Performance Maps were sup
 
 ## Method
 
-A cell is served if an Ookla tile within 2 km reaches the plan's speed for its setting (GHSL classes 21 to 30 count as urban). Rural cells with no tile at all within 2 km are rural gaps: no evidence of broadband, which is not proof of no signal. For those cells only, the maximal covering location problem (Church and ReVelle 1974) is solved by lazy greedy selection over 75,124 candidate squares holding 54,732 clinics and 204,355 schools, with a 5 km site reach; coverage is submodular, so greedy reaches at least 1 − 1/e of the optimum (Nemhauser, Wolsey and Fisher 1978). Hosts in the same square kilometre are interchangeable, so one is kept per cell, a clinic first. "Poorest first" weights only people in the poorer 40% when choosing, while counting everyone covered.
+A cell is served if an Ookla tile within 2 km reaches the plan's speed for its setting (GHSL classes 21 to 30 count as urban). Rural cells with no tile at all within 2 km are rural gaps: no evidence of broadband, which is not proof of no signal. For those cells only, the maximal covering location problem (Church and ReVelle 1974) is solved by lazy greedy selection over 75,124 candidate squares holding 54,732 clinics and 204,355 schools, with a 5 km site reach, the low end of the 5 to 15 km range ITU gives for mobile cellular (ITU 2022, *Guide for procuring last-mile connectivity data networks*, Table 4); coverage is submodular, so greedy reaches at least 1 − 1/e of the optimum (Nemhauser, Wolsey and Fisher 1978). Hosts in the same square kilometre are interchangeable, so one is kept per cell, a clinic first. "Poorest first" weights only people in the poorer 40% when choosing, while counting everyone covered.
 
 ## Checks
 

@@ -123,9 +123,9 @@ steps = [
                                  "no test within 2 km."),
     ("Choose the sites.", f"For rural gaps only, a maximal covering search (Church and ReVelle 1974) picks hosts from "
                           f"{H['facilities']:,} registered clinics and {H['schools']:,} schools (GRID3; public and private, all levels), one per km², that "
-                          "reach the most people within 5 km, one at a time; greedy selection reaches at least 63% of the "
+                          "reach the most people within 5 km (the low end of ITU's 5 to 15 km range for mobile cells); greedy selection reaches at least 63% of the "
                           "optimum (Nemhauser et al. 1978). It runs twice: reach the most people, and poorest first (the "
-                          "poorer 40% by wealth score). JAMB centres were left out: there is no official list with locations."),
+                          "poorer 40% by wealth score). JAMB centres have no official list with locations."),
 ]
 for i, (hd, tx) in enumerate(steps, 1):
     pdf.item(i, hd, tx, size=8.3, lh=3.8)
@@ -264,10 +264,10 @@ pdf.para("Chi, G. et al. (2022) PNAS 119(3) e2113658119. Church, R. and ReVelle,
       "Broadband Plan 2020-2025. Nemhauser, G., Wolsey, L. and Fisher, M. (1978) Mathematical Programming 14, 265-294. "
       "OCHA FISS (2026) Nigeria subnational boundaries. Schiavina, M., Melchiorri, M. and Pesaresi, M. (2023) GHS-SMOD "
       "R2023A, JRC, doi:10.2905/A0DF7A6F-49DE-46EA-9BDE-563437A6E2BA. Speedtest® by Ookla® Global Fixed and Mobile "
-      "Network Performance Maps, supplied by DSN and matched to the release on AWS on 20 October 2026; based on "
+      "Network Performance Maps; based on "
       f"{AUTHOR}'s analysis of these maps for Q4 2024; Ookla trademarks used under license and reprinted with permission "
       "(CC BY-NC-SA 4.0; maps here shared under the same licence). OpenCelliD (2024) cell database, CC BY-SA 4.0, "
-      "opencellid.org, read from the UN Smart Maps Group copy on Source Cooperative.",
+      "opencellid.org, via Source Cooperative. ITU (2022) Guide for procuring last-mile connectivity data networks, Table 4.",
       size=7.0, lh=3.2)
 
 out = C.SUBMISSION / "DSN_Geospatial_WhereToBuildNext_OluwasolaOyinloye.pdf"

@@ -235,7 +235,8 @@ details ol, details ul { padding-left: 18px; display: grid; gap: 6px; }
             measuring first. A rural area with no test nearby is a rural gap: no evidence of broadband, which is not proof
             of no signal.</li>
           <li>For rural gaps only, a maximal covering search adds clinics and schools (public and private, every level)
-            one at a time, each time choosing the host that reaches the most people not yet reached within 5 km. Greedy
+            one at a time, each time choosing the host that reaches the most people not yet reached within 5 km, the low end of
+            the 5 to 15 km range ITU gives for mobile cells. Greedy
             selection is guaranteed to reach at least 63% of the best possible coverage.</li>
           <li>"Poorest first" counts only people in the poorer 40% by Meta's Relative Wealth Index when choosing sites.</li>
         </ol>
@@ -252,6 +253,7 @@ details ol, details ul { padding-left: 18px; display: grid; gap: 6px; }
           <li>GHSL GHS-SMOD R2023A, Schiavina et al. 2023 (CC BY 4.0)</li>
           <li>GRID3 NGA Health Facilities v3.0 and v2.0 and Education Facilities 2020 (CC BY); OCHA boundaries (CC BY-IGO)</li>
           <li>Nigerian National Broadband Plan 2020–2025: speed targets pp. 36 and 38, health-centre target p. 40</li>
+          <li>Site reach: ITU (2022) Guide for procuring last-mile connectivity data networks, Table 4 (mobile cellular, 5 to 15 km)</li>
           <li>Satellite layer: EOxCloudless 2023 by EOX IT Services GmbH, contains modified Copernicus Sentinel data 2023 (CC BY-NC-SA 4.0)</li>
           <li>Cell positions for the coverage check: OpenCelliD 2024, opencellid.org (CC BY-SA 4.0), via the UN Smart Maps Group copy on Source Cooperative</li>
         </ul>
@@ -500,7 +502,7 @@ $("limits").innerHTML = [
   `Speed tests are sparse and mostly urban: ${D.h.tests_per_10k_urban} per 10,000 people in towns, ${D.h.tests_per_10k_rural} in rural areas. No test means no evidence, not no signal: gaps come from where people test, not from operator coverage maps or mast locations.`,
   `Where people do test, the average download is ${D.h.down_mbps_urban} Mbps in towns and ${D.h.down_mbps_rural} Mbps in rural areas (weighted by tests), but only ${D.h.tiles_rural.toLocaleString()} of ${D.h.tiles.toLocaleString()} tiles are rural.`,
   `${D.h.lgas_with_no_tile} of 774 LGAs, home to ${D.h.pop_in_lgas_with_no_tile_m.toFixed(1)} million people, logged no speed test this quarter.`,
-  `Reach depends on how far one site serves: 100 sites reach ${reach("site reach 3 km")} M people at 3 km and ${reach("site reach 10 km")} M at 10 km. The default is 5 km.`,
+  `Reach depends on how far one site serves: 100 sites reach ${reach("site reach 3 km")} M people at 3 km and ${reach("site reach 10 km")} M at 10 km. The default, 5 km, is the low end of the 5 to 15 km range ITU gives for mobile cells.`,
   `One quarter of mobile data (Q4 2024), wealth estimates from 2021, and registered clinics and schools, which are not always working ones.`,
   `${D.excl.pixels} population pixels where Meta's layer piles a census count onto a few buildings (${D.excl.people_m} million people) are left out.`,
   `JAMB exam centres were considered as hosts but left out: no official list with locations is published.`,

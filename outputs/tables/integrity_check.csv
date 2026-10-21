@@ -31,7 +31,7 @@ PASS,Efficiency reaches more people than equity at every budget,True,True,budget
 PASS,Equity reaches more poorer people than efficiency at every budget,True,True,budgets.csv
 PASS,Poorer group is 40% of people with a wealth score (%),40.0,40.0,grid wealth scores
 NOTE,"People reached per site, first 100 (efficiency): median and largest",-,"28,932 and 63,447 (LGEA Primary School Gbandepev)",sites_efficiency.csv
-PASS,All 56 key numbers appear in the PDF as computed,none missing,none missing,text extracted from the PDF
+PASS,All 57 key numbers appear in the PDF as computed,none missing,none missing,text extracted from the PDF
 PASS,"Dashboard sites match the tables (3 host sets x 2 objectives, all ranks)",True,True,data embedded in the HTML
 PASS,Equity runs count people outside the poorer 40% too (coverage of all gap cells),True,True,budgets.csv
 PASS,Schools used as candidates (inside an LGA),204355,204355,fresh spatial join of the raw GRID3 schools file

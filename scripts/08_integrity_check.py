@@ -205,7 +205,7 @@ expected = [f"{pc[k]:.1f} M" for k in pc] + [
     f"{H['poorer_per_km2_under_eq100']} under the 100", f"{H['eq100_sites_at_schools']} of them are schools",
     f"{H['eq100_multi_host_cells']} of the 100 squares", f"all {H['dsn_tiles_identical']:,} tiles identical",
     f"{H['allyear_gap_untested_pct']}% of people in them", f"{H['ocid_gap_no_cell5_pct']}% have no mobile cell",
-    f"against {H['ocid_served_no_cell5_pct']}% in served areas"]
+    f"against {H['ocid_served_no_cell5_pct']}% in served areas", "the low end of ITU's 5 to 15 km range for mobile cells"]
 PLd = pd.DataFrame(H["priority_lgas"])
 expected.append(f"{PLd['poorer_per_km2'].min()} to {PLd['poorer_per_km2'].max()} poorer people per km²")
 expected += [f"{r['people_reached']:,} {r['poorer_reached']:,}" for _, r in equ.head(10).iterrows()]

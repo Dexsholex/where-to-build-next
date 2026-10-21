@@ -59,7 +59,9 @@ SERVE_RADIUS_KM = 2.0                                # a person counts as served
                                                      # of a tile that meets the speed benchmark
 
 # --- siting ------------------------------------------------------------------
-SITE_RADIUS_KM = 5.0                                 # assumed reach of one new connectivity site
+SITE_RADIUS_KM = 5.0                                 # assumed reach of one new connectivity site: the low end of the
+                                                     # 5 to 15 km range ITU gives for mobile cellular (ITU 2022, Guide for
+                                                     # procuring last-mile connectivity data networks, Table 4, p. 12)
 BUDGETS = [10, 25, 50, 100, 200]                     # numbers of sites offered in the tool
 MAX_SITES = 200
 POORER_SHARE = 0.40                                  # "poorer" = bottom 40% of people by wealth index
