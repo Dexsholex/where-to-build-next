@@ -219,6 +219,22 @@
   "allyear_gap_poorer_untested_pct": 97.9,
   "allyear_eq100_untested_pct": 98.7,
   "dsn_tiles_identical": 9234,
+  "ocid_cells": 85755,
+  "ocid_radio_counts": {
+    "GSM": 85714,
+    "UMTS": 29,
+    "LTE": 12
+  },
+  "ocid_gsm_pct": 99.95,
+  "ocid_no_cell5_pct_by_class": {
+    "served": 3.9,
+    "capacity": 15.2,
+    "measure": 46.4,
+    "coverage": 74.5
+  },
+  "ocid_gap_no_cell5_pct": 74.5,
+  "ocid_served_no_cell5_pct": 3.9,
+  "ocid_eq100_no_cell5_pct": 79.1,
   "sensitivity": [
     {
       "setting": "base",

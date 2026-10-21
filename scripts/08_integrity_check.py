@@ -9,6 +9,7 @@
   - speeds and latency where people test, from DSN's raw file with the re-sampled labels
   - the thinly settled priority LGAs: every raw host inside each LGA polygon, great-circle 5 km reach
   - the all-year check: great-circle distances from a sample of rural-gap cells to the Q1-Q3 2024 tiles
+  - the OpenCelliD comparison: great-circle distances from a sample of rural-gap cells to raw cell positions
   - internal consistency of the budget table, and every number printed in the PDF and the dashboard
 
 Output: outputs/tables/integrity_check.csv
@@ -157,6 +158,22 @@ check("People in rural gaps with no test in any quarter of 2024 (%)", H["allyear
       round(100 * cpop[pick][never].sum() / cpop[pick].sum(), 1),
       "haversine to Q1-Q3 tiles for 6,000 random rural-gap cells (a sample, so within 1.5 points)", tol=1.5)
 
+# ----------------------------------------------------------------- 4d. OpenCelliD, great-circle on a sample
+oc = pd.read_parquet(C.OPENCELLID_CELLS, columns=["lon", "lat"])
+olat, olon = oc["lat"].to_numpy(), oc["lon"].to_numpy()
+pick = np.random.default_rng(13).choice(len(cpop), 4000, replace=False)
+far = []
+for i in pick:
+    near = np.nonzero((np.abs(olat - clat[i]) < 0.06) & (np.abs(olon - clon[i]) < 0.06))[0]
+    far.append(not (haversine_km(clat[i], clon[i], olat[near], olon[near]) <= 5).any())
+far = np.array(far)
+check("People in rural gaps with no OpenCelliD cell within 5 km (%)", H["ocid_gap_no_cell5_pct"],
+      round(100 * cpop[pick][far].sum() / cpop[pick].sum(), 1),
+      "haversine to raw cell positions for 4,000 random rural-gap cells (a sample, so within 1.5 points)", tol=1.5)
+ocf = pd.read_csv(C.TABLES / "opencellid_fetch.csv")
+check("OpenCelliD cells file matches the checksum recorded when fetched", ocf["sha256"].iloc[0],
+      __import__("hashlib").sha256(C.OPENCELLID_CELLS.read_bytes()).hexdigest(), "outputs/tables/opencellid_fetch.csv")
+
 # ----------------------------------------------------------------- 5. internal consistency
 check("Cumulative reach never falls (both objectives)", True,
       bool((np.diff(eff["cum_people"]) >= 0).all() and (np.diff(equ["cum_people"]) >= 0).all()), "site tables")
@@ -187,7 +204,8 @@ expected = [f"{pc[k]:.1f} M" for k in pc] + [
     f"{H['tiles_meeting_plan_pct_urban']}% of town tiles", f"{b100['eq_people'] / 1e6:.2f} million",
     f"{H['poorer_per_km2_under_eq100']} under the 100", f"{H['eq100_sites_at_schools']} of them are schools",
     f"{H['eq100_multi_host_cells']} of the 100 squares", f"all {H['dsn_tiles_identical']:,} tiles identical",
-    f"{H['allyear_gap_untested_pct']}% of people in rural gaps", f"({H['allyear_eq100_untested_pct']}% of those"]
+    f"{H['allyear_gap_untested_pct']}% of people in them", f"{H['ocid_gap_no_cell5_pct']}% have no mobile cell",
+    f"against {H['ocid_served_no_cell5_pct']}% in served areas"]
 PLd = pd.DataFrame(H["priority_lgas"])
 expected.append(f"{PLd['poorer_per_km2'].min()} to {PLd['poorer_per_km2'].max()} poorer people per km²")
 expected += [f"{r['people_reached']:,} {r['poorer_reached']:,}" for _, r in equ.head(10).iterrows()]

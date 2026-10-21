@@ -71,7 +71,7 @@ DATA = {"bounds": bounds, "lgas": lga_geo, "states": states_geo, "tiles": tile_r
         "h": {k: H[k] for k in ["population_m", "people_by_class_m", "people_by_class_pct", "tiles", "tests",
                                 "tests_per_10k_urban", "tests_per_10k_rural", "lgas_with_no_tile",
                                 "pop_in_lgas_with_no_tile_m", "facilities", "facilities_by_class",
-                                "coverage_gap_poorer_pct", "down_mbps_urban", "down_mbps_rural", "tiles_rural", "allyear_gap_untested_pct"]},
+                                "coverage_gap_poorer_pct", "down_mbps_urban", "down_mbps_rural", "tiles_rural", "allyear_gap_untested_pct", "ocid_gap_no_cell5_pct", "ocid_served_no_cell5_pct"]},
         "gap_m": H["people_by_class_m"]["coverage"], "sens": H["sensitivity"],
         "excl": {"pixels": int(np.load(C.PROCESSED / "grid.npz")["excluded_pixels"]),
                  "people_m": round(float(np.load(C.PROCESSED / "grid.npz")["excluded_people"]) / 1e6, 2)}}

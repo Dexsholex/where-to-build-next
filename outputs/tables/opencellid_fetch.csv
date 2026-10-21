@@ -1,0 +1,2 @@
+source,last_modified,etag,zoom,tiles,bytes_fetched,cells,lte_cells,updated_min,updated_max,sha256
+https://data.source.coop/smartmaps/opencellid/cellid.pmtiles,"Sat, 15 Jun 2024 22:20:30 GMT","""10216556fce9d52c99648c89e1395b68-67""",14,12367,8599955,85755,12,2022-12-23,2024-06-14,561aea5ca209142237e2d33310fff1f6779afcfc4dce2cefc1297af2064efb04

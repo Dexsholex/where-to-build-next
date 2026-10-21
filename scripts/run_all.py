@@ -1,7 +1,7 @@
 """
 Rebuild Where to Build Next from the raw data, in order.
 
-    python scripts/run_all.py            # everything (02 and 02b read Ookla's public bucket; skip them with --from 03)
+    python scripts/run_all.py            # everything (02, 02b and 02c read public archives; skip them with --from 03)
     python scripts/run_all.py --from 04  # resume from a step
 
 Boundaries, the cleaned facility list and the Ookla tiles ship in data/input; 01 fetches the rest.
@@ -17,6 +17,7 @@ STEPS = [
     ("01", "01_download.py", "download wealth, settlement, schools and population; verify checksums"),
     ("02", "02_identify_ookla_release.py", "identify DSN's Ookla release against Ookla's public files"),
     ("02b", "02b_ookla_all_year.py", "fetch Ookla Q1-Q3 2024 for the all-year check; compare Q4 with DSN's file"),
+    ("02c", "02c_opencellid.py", "OpenCelliD cell positions for Nigeria, read from the public archive"),
     ("03", "03_build_grid.py", "1 km grid: population, settlement, wealth, LGA, distance to speed tests"),
     ("04", "04_siting.py", "triage every cell, choose sites, sensitivity"),
     ("05", "05_make_maps.py", "figures and the web-map layer"),

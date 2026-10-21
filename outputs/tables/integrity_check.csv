@@ -24,12 +24,14 @@ PASS,"Best single site in Ganjuwa, poorer people reached",12212,12617,"every raw
 PASS,"Best single site in Gamawa, poorer people reached",25900,25900,"every raw host inside the LGA polygon, great-circle 5 km"
 PASS,Priority LGAs whose best site reaches fewer than the 100th poorest-first site,4,4,brute-force recomputation above
 PASS,People in rural gaps with no test in any quarter of 2024 (%),95.9,95.1,"haversine to Q1-Q3 tiles for 6,000 random rural-gap cells (a sample, so within 1.5 points)"
+PASS,People in rural gaps with no OpenCelliD cell within 5 km (%),74.5,76.0,"haversine to raw cell positions for 4,000 random rural-gap cells (a sample, so within 1.5 points)"
+PASS,OpenCelliD cells file matches the checksum recorded when fetched,561aea5ca209142237e2d33310fff1f6779afcfc4dce2cefc1297af2064efb04,561aea5ca209142237e2d33310fff1f6779afcfc4dce2cefc1297af2064efb04,outputs/tables/opencellid_fetch.csv
 PASS,Cumulative reach never falls (both objectives),True,True,site tables
 PASS,Efficiency reaches more people than equity at every budget,True,True,budgets.csv
 PASS,Equity reaches more poorer people than efficiency at every budget,True,True,budgets.csv
 PASS,Poorer group is 40% of people with a wealth score (%),40.0,40.0,grid wealth scores
 NOTE,"People reached per site, first 100 (efficiency): median and largest",-,"28,932 and 63,447 (LGEA Primary School Gbandepev)",sites_efficiency.csv
-PASS,All 55 key numbers appear in the PDF as computed,none missing,none missing,text extracted from the PDF
+PASS,All 56 key numbers appear in the PDF as computed,none missing,none missing,text extracted from the PDF
 PASS,"Dashboard sites match the tables (3 host sets x 2 objectives, all ranks)",True,True,data embedded in the HTML
 PASS,Equity runs count people outside the poorer 40% too (coverage of all gap cells),True,True,budgets.csv
 PASS,Schools used as candidates (inside an LGA),204355,204355,fresh spatial join of the raw GRID3 schools file

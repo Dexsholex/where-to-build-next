@@ -33,6 +33,8 @@ ADMIN1 = INPUT / "nigeria_admin1.gpkg"
 ADMIN2 = INPUT / "nigeria_admin2.gpkg"
 FACILITIES = INPUT / "grid3_health_facilities_clean.gpkg"
 POP_CSV_ZIP = RAW / "meta_population" / "nga_general_2020_csv.zip"
+# OpenCelliD cell positions of Nigerian networks (MCC 621), CC BY-SA 4.0, fetched by scripts/02c
+OPENCELLID_CELLS = RAW / "opencellid" / "nigeria_cells.parquet"
 
 CRS_WGS84 = "EPSG:4326"
 CRS_EQUAL_AREA = "+proj=aea +lat_1=4 +lat_2=13 +lat_0=9 +lon_0=8 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs"

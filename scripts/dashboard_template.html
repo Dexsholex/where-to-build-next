@@ -253,6 +253,7 @@ details ol, details ul { padding-left: 18px; display: grid; gap: 6px; }
           <li>GRID3 NGA Health Facilities v3.0 and v2.0 and Education Facilities 2020 (CC BY); OCHA boundaries (CC BY-IGO)</li>
           <li>Nigerian National Broadband Plan 2020–2025: speed targets pp. 36 and 38, health-centre target p. 40</li>
           <li>Satellite layer: EOxCloudless 2023 by EOX IT Services GmbH, contains modified Copernicus Sentinel data 2023 (CC BY-NC-SA 4.0)</li>
+          <li>Cell positions for the coverage check: OpenCelliD 2024, opencellid.org (CC BY-SA 4.0), via the UN Smart Maps Group copy on Source Cooperative</li>
         </ul>
         <p class="credit">Based on Oluwasola Oyinloye's analysis of Speedtest® by Ookla® Global Fixed and Mobile Network
           Performance Maps for Q4 2024, supplied by DSN and matched to the release on AWS on 20 October 2026. Ookla trademarks
@@ -494,6 +495,7 @@ $("limits").innerHTML = [
   `${D.excl.pixels} population pixels where Meta's layer piles a census count onto a few buildings (${D.excl.people_m} million people) are left out.`,
   `JAMB exam centres were considered as hosts but left out: no official list with locations is published.`,
   `The gaps last all year: ${D.h.allyear_gap_untested_pct}% of people in rural gaps had no speed test within 2 km in any quarter of 2024, not just October to December.`,
+  `A second, crowdsourced source agrees: in OpenCelliD's cell map (mostly 2G records), ${D.h.ocid_gap_no_cell5_pct}% of people in rural gaps have no mobile cell of any kind within 5 km, against ${D.h.ocid_served_no_cell5_pct}% in served areas.`,
 ].map(t => `<li>${t}</li>`).join("");
 $("copy").addEventListener("click", () => {
   const rows = D.sites[state.host][state.obj].slice(0, state.n), q = s => `"${String(s).replace(/"/g, '""')}"`;

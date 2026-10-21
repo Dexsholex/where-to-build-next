@@ -288,6 +288,29 @@ H["allyear_gap_poorer_untested_pct"] = round(100 * w_poor[never].sum() / w_poor.
 H["allyear_eq100_untested_pct"] = round(100 * cpop[under][never[under]].sum() / cpop[under].sum(), 1)
 H["dsn_tiles_identical"] = int(pd.read_csv(C.TABLES / "ookla_all_year.csv")["dsn_tiles_identical"].max())
 
+# ----------------------------------------------------------------- second source: OpenCelliD cell positions (scripts/02c)
+# Crowdsourced positions of mobile cells: a second source, but not a fully independent one (it too comes from phones).
+# The measure fixed in advance was "no 4G cell within the 5 km site reach", but OpenCelliD's records for Nigeria are
+# almost all 2G (GSM), so the backup measure fixed at the same time is used: no recorded cell of any kind within 5 km.
+ocid = pd.read_parquet(C.OPENCELLID_CELLS)
+o_xy = gpd.GeoSeries(gpd.points_from_xy(ocid["lon"], ocid["lat"]), crs=C.CRS_WGS84).to_crs(C.CRS_EQUAL_AREA)
+d_cell = cKDTree(np.c_[o_xy.x, o_xy.y]).query(np.c_[cx, cy])[0] / 1000
+under_m = np.zeros(len(cpop), dtype=bool)
+under_m[under] = True
+
+
+def share(cond, base):
+    return round(100 * cpop[cond & base].sum() / cpop[base].sum(), 1)
+
+
+H["ocid_cells"] = int(len(ocid))
+H["ocid_radio_counts"] = {k: int(v) for k, v in ocid["radio"].value_counts().items()}
+H["ocid_gsm_pct"] = round(100 * (ocid["radio"] == "GSM").mean(), 2)
+H["ocid_no_cell5_pct_by_class"] = {c: share(d_cell > 5, cls == k) for k, c in enumerate(CLASSES)}
+H["ocid_gap_no_cell5_pct"] = H["ocid_no_cell5_pct_by_class"]["coverage"]
+H["ocid_served_no_cell5_pct"] = H["ocid_no_cell5_pct_by_class"]["served"]
+H["ocid_eq100_no_cell5_pct"] = share(d_cell > 5, under_m)
+
 # ----------------------------------------------------------------- sensitivity (default hosts: clinics and schools)
 sens = []
 for label, ov in C.SENSITIVITY:

@@ -138,7 +138,8 @@ rows = [("Meta population 2020", "people per ~31 m pixel, summed to 1 km", "Face
         ("GHSL degree of urbanisation 2020", "urban or rural, sets the speed threshold", "Schiavina et al. 2023"),
         ("GRID3 health facilities v3.0, v2.0", f"{H['facilities']:,} candidate clinic hosts", "CIESIN 2026, 2024"),
         ("GRID3 education facilities 2020", f"{H['schools']:,} candidate school hosts", "GRID3 2020"),
-        ("OCHA boundaries; Broadband Plan", "LGAs; speed and coverage benchmarks", "OCHA FISS 2026; FMoCDE 2020")]
+        ("OCHA boundaries; Broadband Plan", "LGAs; speed and coverage benchmarks", "OCHA FISS 2026; FMoCDE 2020"),
+        ("OpenCelliD cell positions 2024", "check: is any mobile cell recorded near a gap?", "OpenCelliD 2024")]
 cw = [58, 78, W - 136]
 pdf.set_font("Helvetica", "", 7.8)
 for r in rows:
@@ -209,11 +210,12 @@ pdf.set_xy(LM + w2 + 4, y + 2); pdf.set_font("Helvetica", "B", 8.4); pdf.set_tex
 pdf.multi_cell(W - w2 - 4, 4, "How sure are we?")
 pdf.set_x(LM + w2 + 4); pdf.set_font("Helvetica", "", 7.7); pdf.set_text_color(*INK)
 pdf.multi_cell(W - w2 - 4, 3.6, clean(
-    f"Reach depends on assumptions, so the tool reports ranges. With 100 sites: {S.loc['site reach 3 km', 'reached_100_m']:.1f} "
-    f"to {S.loc['site reach 10 km', 'reached_100_m']:.1f} million people for a site reach of 3 to 10 km. The rural gap is "
-    f"{S['coverage_gap_m'].min():.1f} to {S['coverage_gap_m'].max():.1f} million across a 1 to 5 km serving distance and a "
-    f"3-test minimum. The gaps last all year: {H['allyear_gap_untested_pct']}% of people in rural gaps had no test within 2 km "
-    f"in any quarter of 2024 ({H['allyear_eq100_untested_pct']}% of those the first 100 sites reach). "
+    f"With 100 sites, reach is {S.loc['site reach 3 km', 'reached_100_m']:.1f} to {S.loc['site reach 10 km', 'reached_100_m']:.1f} "
+    f"million for a site reach of 3 to 10 km; the rural gap is {S['coverage_gap_m'].min():.1f} to "
+    f"{S['coverage_gap_m'].max():.1f} million across a 1 to 5 km serving distance and a 3-test minimum. Two checks suggest "
+    f"the gaps are not just untested: {H['allyear_gap_untested_pct']}% of people in them had no test within 2 km in any "
+    f"quarter of 2024, and in OpenCelliD's crowdsourced cell map (mostly 2G records) {H['ocid_gap_no_cell5_pct']}% have no "
+    f"mobile cell of any kind within 5 km, against {H['ocid_served_no_cell5_pct']}% in served areas. "
     "Figure 2: people reached as sites are added."))
 pdf.ln(1.5)
 pdf.set_x(LM + w2 + 4); pdf.set_font("Helvetica", "B", 8.4); pdf.set_text_color(*ACCENT)
@@ -264,7 +266,8 @@ pdf.para("Chi, G. et al. (2022) PNAS 119(3) e2113658119. Church, R. and ReVelle,
       "R2023A, JRC, doi:10.2905/A0DF7A6F-49DE-46EA-9BDE-563437A6E2BA. Speedtest® by Ookla® Global Fixed and Mobile "
       "Network Performance Maps, supplied by DSN and matched to the release on AWS on 20 October 2026; based on "
       f"{AUTHOR}'s analysis of these maps for Q4 2024; Ookla trademarks used under license and reprinted with permission "
-      "(CC BY-NC-SA 4.0; maps here shared under the same licence).",
+      "(CC BY-NC-SA 4.0; maps here shared under the same licence). OpenCelliD (2024) cell database, CC BY-SA 4.0, "
+      "opencellid.org, read from the UN Smart Maps Group copy on Source Cooperative.",
       size=7.0, lh=3.2)
 
 out = C.SUBMISSION / "DSN_Geospatial_WhereToBuildNext_OluwasolaOyinloye.pdf"
