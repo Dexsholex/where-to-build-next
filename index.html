@@ -320,8 +320,18 @@ const triage = L.imageOverlay(TRIAGE_PNG, [[b.south, b.west], [b.north, b.east]]
 const states = L.geoJSON(D.states, { style: { color: "#ffffff", weight: 1, fill: false }, interactive: false }).addTo(map);
 L.geoJSON(D.states, { style: { color: "#14201b", weight: 0.6, fill: false, opacity: 0.3 }, interactive: false }).addTo(map);
 // keep Nigeria clear of the legend when the map is wide enough to afford it
-const fit = () => { const w = map.getSize().x; map.fitBounds(states.getBounds(), { paddingTopLeft: [16, 16], paddingBottomRight: [w > 980 ? 290 : 16, 16] }); };
+// a map that loads with no size (a hidden tab or frame) cannot fit Nigeria and Leaflet throws, which stopped the
+// rest of this script: start from a fixed view, fit only once there is a size, and fit again when one appears
+map.setView([9.1, 8.7], 6);
+let fitted = false;
+const fit = () => {
+  const { x: w, y: h } = map.getSize();
+  if (!w || !h) return;
+  fitted = true;
+  map.fitBounds(states.getBounds(), { paddingTopLeft: [16, 16], paddingBottomRight: [w > 980 ? 290 : 16, 16] });
+};
 fit();
+new ResizeObserver(() => { map.invalidateSize(); if (!fitted) fit(); }).observe($("map"));
 const lgaIndex = {};
 const lgaLayer = L.geoJSON(D.lgas, {
   style: { color: "#14201b", weight: 0.25, opacity: 0.25, fillOpacity: 0 },
