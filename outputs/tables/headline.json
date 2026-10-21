@@ -1,0 +1,290 @@
+{
+  "ookla_release": "Speedtest by Ookla, mobile, Q4 2024 (identified by exact match, scripts/02)",
+  "population_m": 205.6,
+  "people_by_class_m": {
+    "served": 52.95,
+    "capacity": 22.13,
+    "measure": 64.57,
+    "coverage": 65.95
+  },
+  "people_by_class_pct": {
+    "served": 25.8,
+    "capacity": 10.8,
+    "measure": 31.4,
+    "coverage": 32.1
+  },
+  "urban_pop_m": 136.13,
+  "rural_pop_m": 69.47,
+  "served_urban_pct": 37.6,
+  "served_rural_pct": 2.6,
+  "coverage_gap_poorer_m": 53.12,
+  "coverage_gap_poorer_pct": 80.5,
+  "rwi_cut_poorer40": -0.048,
+  "tiles": 9234,
+  "tiles_urban_pct": 93.2,
+  "tiles_meeting_plan_pct": 39.9,
+  "tests": 42838,
+  "tests_per_10k_urban": 2.99,
+  "tests_per_10k_rural": 0.31,
+  "people_no_tile_within_10km_m": 77.58,
+  "lgas_with_no_tile": 231,
+  "lgas_total": 774,
+  "pop_in_lgas_with_no_tile_m": 48.88,
+  "facilities": 54732,
+  "schools": 204355,
+  "schools_raw": 204513,
+  "candidate_cells": {
+    "both": 75124,
+    "clinics": 37792,
+    "schools": 60232
+  },
+  "facilities_by_class": {
+    "served": 13037,
+    "capacity": 5278,
+    "measure": 15148,
+    "coverage": 21269
+  },
+  "schools_by_class": {
+    "served": 51250,
+    "capacity": 18819,
+    "measure": 57621,
+    "coverage": 76665
+  },
+  "budgets": [
+    {
+      "sites": 10,
+      "eff_people": 469025,
+      "eff_poorer": 303398,
+      "eq_people": 417682,
+      "eq_poorer": 394560,
+      "eff_share": 0.71,
+      "eq_share": 0.63,
+      "people_given_up_for_equity": 51343,
+      "poorer_gained_by_equity": 91162,
+      "sites_at_schools": 6
+    },
+    {
+      "sites": 25,
+      "eff_people": 1004197,
+      "eff_poorer": 668676,
+      "eq_people": 904286,
+      "eq_poorer": 847283,
+      "eff_share": 1.52,
+      "eq_share": 1.37,
+      "people_given_up_for_equity": 99911,
+      "poorer_gained_by_equity": 178607,
+      "sites_at_schools": 16
+    },
+    {
+      "sites": 50,
+      "eff_people": 1768920,
+      "eff_poorer": 1245783,
+      "eq_people": 1614685,
+      "eq_poorer": 1522098,
+      "eff_share": 2.68,
+      "eq_share": 2.45,
+      "people_given_up_for_equity": 154235,
+      "poorer_gained_by_equity": 276315,
+      "sites_at_schools": 26
+    },
+    {
+      "sites": 100,
+      "eff_people": 3120421,
+      "eff_poorer": 2325636,
+      "eq_people": 2869631,
+      "eq_poorer": 2723349,
+      "eff_share": 4.73,
+      "eq_share": 4.35,
+      "people_given_up_for_equity": 250790,
+      "poorer_gained_by_equity": 397713,
+      "sites_at_schools": 47
+    },
+    {
+      "sites": 200,
+      "eff_people": 5511867,
+      "eff_poorer": 4226765,
+      "eq_people": 5080524,
+      "eq_poorer": 4846835,
+      "eff_share": 8.36,
+      "eq_share": 7.7,
+      "people_given_up_for_equity": 431343,
+      "poorer_gained_by_equity": 620070,
+      "sites_at_schools": 104
+    }
+  ],
+  "by_host_100": [
+    {
+      "sites": 100,
+      "hosts": "both",
+      "objective": "efficiency",
+      "people": 3120421,
+      "poorer": 2325636
+    },
+    {
+      "sites": 100,
+      "hosts": "both",
+      "objective": "equity",
+      "people": 2869631,
+      "poorer": 2723349
+    },
+    {
+      "sites": 100,
+      "hosts": "clinics",
+      "objective": "efficiency",
+      "people": 3044606,
+      "poorer": 2172893
+    },
+    {
+      "sites": 100,
+      "hosts": "clinics",
+      "objective": "equity",
+      "people": 2770435,
+      "poorer": 2638708
+    },
+    {
+      "sites": 100,
+      "hosts": "schools",
+      "objective": "efficiency",
+      "people": 3105851,
+      "poorer": 2320712
+    },
+    {
+      "sites": 100,
+      "hosts": "schools",
+      "objective": "equity",
+      "people": 2858889,
+      "poorer": 2712774
+    }
+  ],
+  "params": {
+    "URBAN_MIN_KBPS": 25000,
+    "RURAL_MIN_KBPS": 10000,
+    "MIN_TESTS": 1,
+    "SERVE_RADIUS_KM": 2.0,
+    "SITE_RADIUS_KM": 5.0,
+    "POORER_SHARE": 0.4
+  },
+  "tiles_urban": 8606,
+  "down_mbps_urban": 52.2,
+  "latency_ms_urban": 56.3,
+  "tiles_meeting_plan_pct_urban": 38.9,
+  "tiles_rural": 628,
+  "down_mbps_rural": 22.9,
+  "latency_ms_rural": 53.8,
+  "tiles_meeting_plan_pct_rural": 52.5,
+  "priority_lgas": [
+    {
+      "lga": "Ningi",
+      "state": "Bauchi",
+      "poorer_per_km2": 165,
+      "best_site_poorer": 20978,
+      "sites100_equity": 0
+    },
+    {
+      "lga": "Fune",
+      "state": "Yobe",
+      "poorer_per_km2": 210,
+      "best_site_poorer": 17316,
+      "sites100_equity": 0
+    },
+    {
+      "lga": "Wasagu/Danko",
+      "state": "Kebbi",
+      "poorer_per_km2": 171,
+      "best_site_poorer": 18936,
+      "sites100_equity": 0
+    },
+    {
+      "lga": "Ganjuwa",
+      "state": "Bauchi",
+      "poorer_per_km2": 126,
+      "best_site_poorer": 12212,
+      "sites100_equity": 0
+    },
+    {
+      "lga": "Gamawa",
+      "state": "Bauchi",
+      "poorer_per_km2": 199,
+      "best_site_poorer": 25900,
+      "sites100_equity": 1
+    }
+  ],
+  "poorer_per_km2_under_eq100": 482,
+  "poorer_per_km2_gap_national": 172,
+  "eq_site100_poorer": 22832,
+  "eq100_sites_at_schools": 60,
+  "eq100_multi_host_cells": 86,
+  "allyear_gap_untested_pct": 95.9,
+  "allyear_gap_untested_m": 63.3,
+  "allyear_gap_poorer_untested_pct": 97.9,
+  "allyear_eq100_untested_pct": 98.7,
+  "dsn_tiles_identical": 9234,
+  "sensitivity": [
+    {
+      "setting": "base",
+      "coverage_gap_m": 65.95,
+      "served_m": 52.95,
+      "capacity_m": 22.13,
+      "measure_m": 64.57,
+      "reached_50_m": 1.77,
+      "reached_100_m": 3.12,
+      "equity_cost_100_m": 0.25,
+      "equity_gain_poorer_100_m": 0.4
+    },
+    {
+      "setting": "serve 1 km",
+      "coverage_gap_m": 68.04,
+      "served_m": 33.4,
+      "capacity_m": 20.82,
+      "measure_m": 83.34,
+      "reached_50_m": 1.81,
+      "reached_100_m": 3.2,
+      "equity_cost_100_m": 0.32,
+      "equity_gain_poorer_100_m": 0.47
+    },
+    {
+      "setting": "serve 5 km",
+      "coverage_gap_m": 59.36,
+      "served_m": 77.35,
+      "capacity_m": 22.77,
+      "measure_m": 46.12,
+      "reached_50_m": 1.67,
+      "reached_100_m": 2.98,
+      "equity_cost_100_m": 0.19,
+      "equity_gain_poorer_100_m": 0.29
+    },
+    {
+      "setting": "tiles with 3+ tests",
+      "coverage_gap_m": 65.95,
+      "served_m": 34.28,
+      "capacity_m": 40.79,
+      "measure_m": 64.57,
+      "reached_50_m": 1.77,
+      "reached_100_m": 3.12,
+      "equity_cost_100_m": 0.25,
+      "equity_gain_poorer_100_m": 0.4
+    },
+    {
+      "setting": "site reach 3 km",
+      "coverage_gap_m": 65.95,
+      "served_m": 52.95,
+      "capacity_m": 22.13,
+      "measure_m": 64.57,
+      "reached_50_m": 1.01,
+      "reached_100_m": 1.73,
+      "equity_cost_100_m": 0.2,
+      "equity_gain_poorer_100_m": 0.35
+    },
+    {
+      "setting": "site reach 10 km",
+      "coverage_gap_m": 65.95,
+      "served_m": 52.95,
+      "capacity_m": 22.13,
+      "measure_m": 64.57,
+      "reached_50_m": 4.49,
+      "reached_100_m": 7.98,
+      "equity_cost_100_m": 0.31,
+      "equity_gain_poorer_100_m": 0.45
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+quadkey,avg_d_kbps_dsn,avg_u_kbps_dsn,avg_lat_ms_dsn,tests_dsn,devices_dsn,avg_d_kbps_ookla,avg_u_kbps_ookla,avg_lat_ms_ookla,tests_ookla,devices_ookla,release,path
+1222203203301233,105137,33281,22,531,28,105137,33281,22,531,28,mobile year=2024 quarter=4,ookla-open-data/parquet/performance/type=mobile/year=2024/quarter=4/2024-10-01_performance_mobile_tiles.parquet
+1222203203131102,11835,4082,25,260,3,11835,4082,25,260,3,mobile year=2024 quarter=4,ookla-open-data/parquet/performance/type=mobile/year=2024/quarter=4/2024-10-01_performance_mobile_tiles.parquet
+1222203203011313,43134,20381,19,228,8,43134,20381,19,228,8,mobile year=2024 quarter=4,ookla-open-data/parquet/performance/type=mobile/year=2024/quarter=4/2024-10-01_performance_mobile_tiles.parquet
+1222230000103220,10048,4486,45,225,1,10048,4486,45,225,1,mobile year=2024 quarter=4,ookla-open-data/parquet/performance/type=mobile/year=2024/quarter=4/2024-10-01_performance_mobile_tiles.parquet
+1222203203312012,35548,12360,18,194,13,35548,12360,18,194,13,mobile year=2024 quarter=4,ookla-open-data/parquet/performance/type=mobile/year=2024/quarter=4/2024-10-01_performance_mobile_tiles.parquet
+1222210321012010,170499,30928,28,191,7,170499,30928,28,191,7,mobile year=2024 quarter=4,ookla-open-data/parquet/performance/type=mobile/year=2024/quarter=4/2024-10-01_performance_mobile_tiles.parquet
+1222203203312023,19751,3089,18,176,11,19751,3089,18,176,11,mobile year=2024 quarter=4,ookla-open-data/parquet/performance/type=mobile/year=2024/quarter=4/2024-10-01_performance_mobile_tiles.parquet
+1222203210232321,6754,3198,40,175,18,6754,3198,40,175,18,mobile year=2024 quarter=4,ookla-open-data/parquet/performance/type=mobile/year=2024/quarter=4/2024-10-01_performance_mobile_tiles.parquet

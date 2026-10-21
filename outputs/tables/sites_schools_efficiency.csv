@@ -1,0 +1,201 @@
+rank,people_reached,poorer_reached,cum_people,cum_poorer,host,name,kind,lga,state,lon,lat,hosts_in_cell,share_of_coverage_gap
+1,63447,63447,63447,63447,school,LGEA Primary School Gbandepev,Primary school,Ushongo,Benue,9.13201,7.08866,2,0.1
+2,51922,5436,115368,68882,school,Community Primary School Amakpaka,Primary school,Enugu East,Enugu,7.55508,6.60669,2,0.17
+3,50602,29754,165971,98636,school,Archangel Michael College,Secondary school,Udenu,Enugu,7.59884,6.84468,3,0.25
+4,48863,33363,214833,131999,school,Grace Foundation Academy,Primary school,Nsukka,Enugu,7.53936,6.77413,2,0.33
+5,48801,39736,263634,171736,school,Community Secondary School Bolo,Secondary school,Ogu/Bolo,Rivers,7.21986,4.67062,4,0.4
+6,44176,44176,307810,215911,school,LGEA Primary School Ionguga,Primary school,Ushongo,Benue,9.2129,7.07454,2,0.47
+7,42899,37880,350709,253791,school,Government Migrants Secondary School,Secondary school,Akpabuyo,Cross River,8.5071,4.83311,4,0.53
+8,41278,19709,391987,273500,school,Government Junior Secondary School Aba Zaria,Secondary school,Zaria,Kaduna,7.76041,11.02151,4,0.59
+9,38774,29760,430761,303260,school,Government Secondary School Abesse,Secondary school,Akuku Toru,Rivers,6.76358,4.39868,2,0.65
+10,38123,25519,468884,328779,school,Balloda Primary School,Primary school,Dambatta,Kano,8.59434,12.40416,2,0.71
+11,37949,896,506833,329675,school,Christ Church School,Secondary school,Itu,Akwa Ibom,8.03229,5.14309,4,0.77
+12,37611,37611,544444,367286,school,Government Day Secondary School Tsabu,Secondary school,Mai'adua,Katsina,8.17725,13.03516,2,0.83
+13,37584,179,582028,367465,school,Ar Razaq Group of School,Primary school,Ijebu Ode,Ogun,3.98526,6.73587,2,0.88
+14,36867,7520,618894,374985,school,Christ The King Catholic College Ipele owo,Secondary school,Owo,Ondo,5.66123,7.13951,4,0.94
+15,36770,27900,655664,402885,school,Abubakar Shehu Mairogo Universal Basic Education Primary,Primary school,Zaria,Kaduna,7.67186,11.01462,2,0.99
+16,36429,36429,692093,439314,school,Dakau Primary School,Primary school,Charanchi,Katsina,7.68444,12.60114,2,1.05
+17,36020,26286,728113,465600,school,Danwala Primary School,Primary school,Birnin Magaji,Zamfara,6.85398,12.55265,2,1.1
+18,35182,31971,763295,497571,school,Mbeke Community School Campus 1,Primary school,Izzi,Ebonyi,8.37239,6.47033,2,1.16
+19,34962,11112,798256,508683,school,Iggah Technical College,Secondary school,Uzo-Uwani,Enugu,6.94938,6.72515,6,1.21
+20,34845,30699,833102,539383,school,Kogin Abdu Primary School,Primary school,Kaura Namoda,Zamfara,6.63482,12.53629,2,1.26
+21,34797,25488,867899,564871,school,United Primary School Agopanu,Primary school,Owo,Ondo,5.62601,7.279,2,1.32
+22,33681,32639,901580,597509,school,Dankano Primary School,Primary school,Babura,Jigawa,8.8996,12.61173,2,1.37
+23,33608,30949,935189,628458,school,Abaniyawa Primary School,Primary school,Kaura Namoda,Zamfara,6.51594,12.53742,2,1.42
+24,33601,30193,968789,658651,school,Local Authority Primary School Toba,Primary school,Ife South,Osun,4.64769,7.42721,2,1.47
+25,33555,26674,1002344,685325,school,State School Emoh,Primary school,Abua/Odual,Rivers,6.65135,4.79707,2,1.52
+26,33140,9938,1035484,695263,school,Wudimari Primary School,Primary school,Jere,Borno,13.21477,11.88164,1,1.57
+27,33054,32974,1068539,728236,school,Tuga Primary School,Primary school,Matazu,Katsina,7.57241,12.3316,2,1.62
+28,32929,17557,1101467,745793,school,Government Secondary School Lunemene,Secondary school,Khana,Rivers,7.48626,4.71841,4,1.67
+29,32736,11854,1134203,757647,school,Saint Ebenezer Primary School Ikot Okon Idem,Primary school,Akpabuyo,Cross River,8.43976,4.89531,2,1.72
+30,32072,27577,1166275,785225,school,Dankaza Kantudu Primary School,Primary school,Wudil,Kano,8.81047,11.70527,2,1.77
+31,31527,8703,1197802,793928,school,National Comprehensive College,Secondary school,Andoni,Rivers,7.44031,4.52805,12,1.82
+32,31435,31435,1229237,825362,school,Makadi Nomadic Primary School,Primary school,Babura,Jigawa,8.9704,12.70467,2,1.86
+33,31251,20961,1260488,846323,school,Sara Nomadic Primary School,Primary school,Gwarzo,Kano,7.83809,11.94808,2,1.91
+34,30731,29747,1291220,876070,school,L G E A School Ogwuche Akpa,Secondary school,Okpokwu,Benue,7.76101,7.05149,2,1.96
+35,30715,30715,1321935,906785,school,Kundu Primary School,Primary school,Dutsin-Ma,Katsina,7.58818,12.42216,2,2.0
+36,30705,11740,1352640,918525,school,Government Secondary School Shere,Secondary school,Bwari,Federal Capital Territory,7.49866,9.24028,4,2.05
+37,30502,28003,1383142,946529,school,Local Authority Primary School Oniyere,Primary school,Obokun,Osun,4.64613,7.78257,2,2.1
+38,30494,26754,1413636,973282,school,Gidan Jurau Nursery And Primary,Primary school,Rogo,Kano,7.99709,11.49666,2,2.14
+39,30415,28219,1444051,1001501,school,Takalmawa Primary School,Primary school,Dandume,Katsina,7.25385,11.37434,2,2.19
+40,30205,30205,1474255,1031705,school,Akinye Community Junior Grammar School,Secondary school,Ile-Oluji-Okeigbo,Ondo,4.9573,7.27905,4,2.24
+41,30097,21657,1504352,1053363,school,Eneyo Memorial Primary School,Primary school,Akpabuyo,Cross River,8.51057,4.94197,4,2.28
+42,29901,26962,1534253,1080325,school,Nongo Kristo Sudan Tiv Primary School,Primary school,Vandeikya,Benue,9.1131,6.98982,4,2.33
+43,29527,27511,1563780,1107836,school,Jibga Primary School,Primary school,Makoda,Kano,8.478,12.42237,2,2.37
+44,29461,29461,1593241,1137297,school,Rafin Yaki Primary School,Primary school,Zuru,Kebbi,5.32289,11.42837,2,2.42
+45,29436,29436,1622678,1166734,school,Tsaba Primary School,Primary school,Dambatta,Kano,8.57742,12.58866,2,2.46
+46,29274,21590,1651951,1188323,school,Nomadic Primary School Wasa,Primary school,Abuja Municipal,Federal Capital Territory,7.48231,8.87599,2,2.5
+47,29262,10600,1681214,1198923,school,Odoayandelu Junior Secondary School,Secondary school,Epe,Lagos,3.71223,6.67626,4,2.55
+48,29254,29254,1710467,1228177,school,Primary School Maruji,Primary school,Matazu,Katsina,7.54672,12.20619,2,2.59
+49,29099,4320,1739567,1232496,school,Capital Science Academy,Secondary school,Abuja Municipal,Federal Capital Territory,7.2888,8.86112,2,2.64
+50,28765,25382,1768332,1257878,school,Hurtumi Primary Primary School,Primary school,Baure,Katsina,8.70684,12.70231,2,2.68
+51,28618,28618,1796950,1286496,school,Junior Secondary School Tsangarwa,Secondary school,Gwaram,Jigawa,9.75762,11.43987,2,2.72
+52,28615,25308,1825565,1311804,school,Daurawa Primary School,Primary school,Musawa,Katsina,7.84675,12.19198,2,2.77
+53,28537,14060,1854102,1325865,school,Chiromawa Primary School,Primary school,Ungogo,Kano,8.41214,12.03286,2,2.81
+54,28443,28443,1882545,1354307,school,Government Junior Secondary School Galdimari,Secondary school,Jama'are,Bauchi,10.03417,11.6562,4,2.85
+55,28427,15999,1910971,1370306,school,Galadima Primary School,Primary school,Danja,Katsina,7.66857,11.31077,2,2.9
+56,28311,21585,1939283,1391892,school,Intusharuddin Islamiyya Primary School,Primary school,Rano,Kano,8.54905,11.55941,4,2.94
+57,28232,18623,1967515,1410515,school,Damakwarwa Primary School,Primary school,Sabon-Gari,Kaduna,7.71211,11.19436,2,2.98
+58,28096,23359,1995611,1433873,school,Mtsoki Vwa Primary School Mtsoki Vwa,Primary school,Michika,Adamawa,13.45118,10.56454,2,3.03
+59,28059,20230,2023670,1454103,school,Community Junior Secondary School Minama,Secondary school,Asari-Toru,Rivers,6.81468,4.73445,8,3.07
+60,27909,27909,2051579,1482012,school,Hayatul Islam,Primary school,Sabuwa,Katsina,7.13427,11.2385,2,3.11
+61,27387,27284,2078966,1509297,school,Shiddo Primary School,Primary school,Billiri,Gombe,11.22859,9.92649,4,3.15
+62,27357,20991,2106323,1530288,school,Kubu Primary School,Primary school,Madagali,Adamawa,13.3901,10.85767,2,3.19
+63,27336,27336,2133659,1557624,school,Dan Amale Primary School,Primary school,Babura,Jigawa,8.83529,12.66477,2,3.24
+64,27300,19442,2160960,1577066,school,L G E A School Igebije,Secondary school,Igalamela-Odolu,Kogi,7.34014,7.05424,2,3.28
+65,27275,27275,2188235,1604341,school,Model Primary School Sabon Gari,Primary school,Illela,Sokoto,5.3979,13.57845,2,3.32
+66,27233,25069,2215468,1629410,school,Gobirawa Primary School,Primary school,Sabuwa,Katsina,7.12249,11.3778,2,3.36
+67,26981,25294,2242449,1654704,school,Malan Mannir Fura Girke Islamiyya,Primary school,Batsari,Katsina,7.25073,12.87021,3,3.4
+68,26949,26949,2269398,1681653,school,Government Junior Secondary School Tuge,Secondary school,Musawa,Katsina,7.60365,11.98158,6,3.44
+69,26922,19430,2296320,1701082,school,Dadin Duniya Prm School,Primary school,Gabasawa,Kano,8.88812,12.16482,4,3.48
+70,26807,22500,2323127,1723583,school,Junior Secondary School Ubosharu,Secondary school,Kwali,Federal Capital Territory,6.91707,8.547,4,3.52
+71,26734,26734,2349861,1750317,school,Karari Primary School,Primary school,Sabon Birni,Sokoto,6.21709,13.57394,2,3.56
+72,26660,26660,2376521,1776977,school,Junior Secondary School Tasheguwa,Secondary school,Kiri Kasamma,Jigawa,10.14405,12.54949,3,3.6
+73,26643,26643,2403164,1803621,school,Gordo Primary School,Primary school,Babura,Jigawa,8.86131,12.52027,2,3.64
+74,26627,15206,2429791,1818826,school,Community Secondary Commercial School,Secondary school,Mkpat Enin,Akwa Ibom,7.78008,4.78006,2,3.68
+75,26597,26597,2456388,1845423,school,Nurul Islamiyya Pandaro,Primary school,Kusada,Katsina,8.03276,12.49496,3,3.72
+76,26557,11521,2482945,1856944,school,Ibogun Olaoparun Community Primary School,Primary school,Ifo,Ogun,3.13985,6.82674,2,3.76
+77,26537,6386,2509483,1863330,school,Government Girls Arabic Junior Secondary School,Secondary school,Kura,Kano,8.43398,11.76935,10,3.8
+78,26382,17142,2535865,1880472,school,Iyanfoworogi Grammar School,Secondary school,Ife East,Osun,4.56918,7.36971,4,3.84
+79,26373,17912,2562238,1898384,school,Nasara Standard Acadamy Secondary School,Secondary school,Kaura Namoda,Zamfara,6.59291,12.61721,2,3.88
+80,26271,26271,2588509,1924655,school,Saburuji Primary School,Primary school,Shira,Bauchi,10.01812,11.57263,2,3.92
+81,26265,22319,2614773,1946974,school,Kote Primary School,Primary school,Bama,Borno,14.04811,11.41394,1,3.96
+82,26211,13753,2640985,1960727,school,Government Junior Secondary School Tariwa,Secondary school,Bebeji,Kano,8.31241,11.60277,4,4.0
+83,26199,17916,2667184,1978643,school,Iziola Ishieke Community Primary School,Primary school,Ebonyi,Ebonyi,8.07438,6.57561,2,4.04
+84,26166,21704,2693350,2000347,school,Lim Kasa Primary School,Primary school,Tafawa-Balewa,Bauchi,9.39793,9.76012,2,4.08
+85,26098,21442,2719449,2021789,school,Government Secondary School Gumbi,Secondary school,Wamako,Sokoto,5.1507,13.01149,8,4.12
+86,26024,5355,2745473,2027144,school,Government Primary School Obio Nno,Primary school,Odukpani,Cross River,8.00548,5.28137,2,4.16
+87,25962,25962,2771435,2053106,school,Gazan Tufafin Primary School,Primary school,Shira,Bauchi,10.10623,11.42736,2,4.2
+88,25900,25900,2797335,2079006,school,Garin Jambiri Primary School,Primary school,Gamawa,Bauchi,10.78622,11.76036,2,4.24
+89,25871,23537,2823206,2102543,school,Junior Secondary School Buzawa,Secondary school,Itas/Gadau,Bauchi,9.70367,11.7682,4,4.28
+90,25859,25859,2849066,2128402,school,Dundumawa Islamiyya Primary School,Primary school,Sumaila,Kano,8.88285,11.50316,2,4.32
+91,25821,9556,2874887,2137958,school,Iyora Secondary School,Secondary school,Etsako West,Edo,6.35368,7.12459,6,4.36
+92,25793,22800,2900680,2160758,school,Tofai Islamiyya Primary,Primary school,Gabasawa,Kano,8.83287,12.0574,5,4.4
+93,25786,24532,2926466,2185291,school,Dan Kakuru Model Primary School,Primary school,Kankara,Katsina,7.5329,11.92945,2,4.44
+94,25778,20642,2952244,2205933,school,Yalwar Makama Primary School,Primary school,Gaya,Kano,9.12841,11.75966,2,4.48
+95,25769,25769,2978014,2231702,school,Iddikki Primary School,Primary school,Illela,Sokoto,5.39529,13.76023,2,4.52
+96,25665,7766,3003679,2239468,school,Bemotta International School Emonu,Secondary school,Ughelli North,Delta,6.10841,5.70306,2,4.55
+97,25659,14977,3029338,2254445,school,Tjnfusa Nomadic Primary School,Primary school,Jahun,Jigawa,9.65941,12.07991,2,4.59
+98,25558,25087,3054896,2279532,school,Budumuri Primary School,Primary school,Bama,Borno,13.80911,11.42838,2,4.63
+99,25533,15758,3080429,2295290,school,Okuodibo Primary School,Primary school,Ethiope West,Delta,5.81249,5.83812,2,4.67
+100,25422,25422,3105851,2320712,school,Kirbiti Primary School,Primary school,Jama'are,Bauchi,9.865,11.59482,2,4.71
+101,25261,14796,3131112,2335508,school,Yammanuwa Primary School,Primary school,Sandamu,Katsina,8.36514,12.93055,2,4.75
+102,25192,17109,3156304,2352617,school,Madarin Taba Primary School,Primary school,Warawa,Kano,8.75409,11.93637,5,4.79
+103,25170,16802,3181474,2369418,school,Community Secondary School,Secondary school,Yamaltu/Deba,Gombe,11.21001,10.34885,4,4.82
+104,25122,4791,3206596,2374209,school,Atric Comprehensive Secondary School,Secondary school,Osisioma Ngwa,Abia,7.35971,5.2399,2,4.86
+105,25061,18935,3231657,2393145,school,Zangon Mata Nomadic Primary School,Primary school,Dawakin Tofa,Kano,8.41199,12.22898,2,4.9
+106,25024,20742,3256682,2413887,school,Tarbiyyatul Islamiyya School Tofawa,Primary school,Kunchi,Kano,8.31647,12.34462,5,4.94
+107,25021,15017,3281703,2428904,school,LEA Primary School Kuchichacha,Primary school,Gwagwalada,Federal Capital Territory,6.99686,8.92595,2,4.98
+108,24996,19650,3306699,2448553,school,Kwarago Primary School,Primary school,Kankia,Katsina,7.89284,12.51331,2,5.01
+109,24992,24992,3331691,2473545,school,Kunamawa Primary School,Primary school,Safana,Katsina,7.38074,12.36367,2,5.05
+110,24932,24932,3356622,2498477,school,Junior Secondary School Turba,Secondary school,Isa,Sokoto,6.38499,13.28124,5,5.09
+111,24860,17352,3381482,2515829,school,Ejila Awori Community High School,Secondary school,Ado-Odo/Ota,Ogun,3.15976,6.5594,2,5.13
+112,24853,24853,3406335,2540682,school,LGEA Primary Kulegwa,Primary school,Logo,Benue,9.41592,7.55635,2,5.16
+113,24844,2172,3431179,2542854,school,Marry Slessour Secondary School,Secondary school,Arochukwu,Abia,7.89256,5.3852,4,5.2
+114,24838,18430,3456017,2561284,school,Government Junior Secondary School Ogba,Secondary school,Nasarawa-Eggon,Nasarawa,8.42169,8.85341,2,5.24
+115,24827,10844,3480844,2572128,school,Ipokia Local Government Primary School Anagunji,Primary school,Ipokia,Ogun,2.83247,6.49999,2,5.28
+116,24745,24745,3505589,2596874,school,Kwantare Nomadic Primary School,Primary school,Kafin Hausa,Jigawa,10.02449,12.04268,2,5.32
+117,24711,12924,3530300,2609797,school,Community Primary School Oloma,Primary school,Bonny,Rivers,7.19823,4.45973,2,5.35
+118,24706,20477,3555006,2630274,school,Ganjuwa Primary School,Primary school,Ingawa,Katsina,8.02164,12.60085,2,5.39
+119,24624,16383,3579631,2646657,school,Saki Polytenic Campus Temidire,Other school,Saki West,Oyo,3.40811,8.63061,1,5.43
+120,24605,24605,3604235,2671262,school,Madaka Primary School,Primary school,Malumfashi,Katsina,7.75441,11.86475,2,5.46
+121,24532,24026,3628767,2695288,school,Dogon Fako Primary School,Primary school,Batsari,Katsina,7.27843,12.97504,2,5.5
+122,24521,24521,3653288,2719809,school,Yegemu Primary School,Primary school,Batagarawa,Katsina,7.44104,12.90027,2,5.54
+123,24473,6615,3677761,2726424,school,Salvation Army School,Primary school,Ibesikpo Asutan,Akwa Ibom,7.95115,4.84479,2,5.58
+124,24465,22743,3702226,2749167,school,Jigawa Primary School,Primary school,Bade,Yobe,10.83344,12.85971,2,5.61
+125,24394,23532,3726619,2772699,school,Kseva Primary School,Primary school,Zuru,Kebbi,5.28236,11.49271,2,5.65
+126,24360,24360,3750979,2797058,school,Rayya Primary School,Primary school,Talata Mafara,Zamfara,6.03381,12.28503,2,5.69
+127,24326,19385,3775305,2816444,school,Government Junior Secondary School Randawa,Secondary school,Mani,Katsina,8.04578,12.84294,6,5.72
+128,24283,11304,3799587,2827747,school,LEA Primary School Rafin Zurfi,Primary school,Gwagwalada,Federal Capital Territory,7.06014,9.02507,2,5.76
+129,24158,23818,3823745,2851565,school,Kwankwarami Primary School,Primary school,Kazaure,Jigawa,8.49215,12.65048,2,5.8
+130,24139,20784,3847884,2872349,school,Kauyen Sono Primary School,Primary school,Kurfi,Katsina,7.49156,12.72877,2,5.83
+131,24096,22692,3871981,2895041,school,Dingam Primary School,Primary school,Ganye,Adamawa,11.9551,8.4483,2,5.87
+132,23974,19599,3895954,2914640,school,Madobi Primary School,Primary school,Dandume,Katsina,7.22491,11.47013,2,5.91
+133,23942,5338,3919897,2919978,school,Anglcan Church School Bandu,Primary school,Ado-Odo/Ota,Ogun,2.95188,6.52951,2,5.94
+134,23923,10530,3943819,2930508,school,K Malan T Nomadic,Primary school,Bebeji,Kano,8.33449,11.44969,2,5.98
+135,23918,23045,3967737,2953554,school,Unguwar Fulani Primary School,Primary school,Gwandu,Kebbi,4.5841,12.38872,2,6.02
+136,23816,23769,3991553,2977323,school,Dadin Kowa Primary School,Primary school,Batsari,Katsina,7.30821,12.74191,2,6.05
+137,23793,16379,4015346,2993702,school,Giokoo Community Primary School,Primary school,Gokana,Rivers,7.30438,4.66244,11,6.09
+138,23782,21166,4039128,3014868,school,Bala B Primary School,Primary school,Danja,Katsina,7.58086,11.38951,2,6.12
+139,23778,17518,4062906,3032386,school,Sabuwar Unguwar Sayau Primary School,Primary school,Sabuwa,Katsina,7.01982,11.28881,2,6.16
+140,23758,11481,4086664,3043867,school,Manarul Huda Garke,Primary school,Minjibir,Kano,8.58867,12.2087,2,6.2
+141,23736,20104,4110400,3063970,school,Kure Primary School,Primary school,Kibiya,Kano,8.75907,11.51068,5,6.23
+142,23685,12978,4134084,3076949,school,Elabo Science and Technical Collegeokpaflo adoka,Secondary school,Oturkpo,Benue,7.92868,7.45492,2,6.27
+143,23683,19447,4157767,3096396,school,St David African Church Primary School Okia,Primary school,Akoko South West,Ondo,5.82268,7.44888,2,6.3
+144,23665,17295,4181433,3113690,school,Tarai Central Primary School,Primary school,Kibiya,Kano,8.66548,11.42979,2,6.34
+145,23646,23646,4205079,3137337,school,Junior Secondary School Duwegi,Secondary school,Gwiwa,Jigawa,8.34152,12.73408,4,6.38
+146,23598,19173,4228677,3156510,school,Tsauni Burya Nomadic Primary School,Primary school,Dambatta,Kano,8.57997,12.34194,2,6.41
+147,23553,23409,4252230,3179919,school,LGEA Primary School Nenge,Primary school,Konshisha,Benue,8.80483,6.95996,2,6.45
+148,23545,12561,4275775,3192479,school,Oguteoke Secondary School,Secondary school,Etsako East,Edo,6.29376,7.28021,4,6.48
+149,23533,18527,4299307,3211006,school,Yar Labe Primary School,Primary school,Bungudu,Zamfara,6.70102,12.28304,2,6.52
+150,23516,17818,4322823,3228824,school,Yangero Primary School,Primary school,Jibia,Katsina,7.52701,12.9729,2,6.55
+151,23511,23511,4346334,3252335,school,Junior Secondary School Unguwar Mani,Secondary school,Gwiwa,Jigawa,8.2192,12.6811,7,6.59
+152,23508,10518,4369842,3262853,school,Ikenga Primary School Umuawor Nando,Primary school,Anambra East,Anambra,6.93776,6.31163,2,6.63
+153,23507,23507,4393349,3286360,school,Jamaa Malan Sani Primary School,Primary school,Zango,Katsina,8.48426,12.94383,2,6.66
+154,23496,23496,4416845,3309856,school,Government Junior Secondary School Dan Sarai,Secondary school,Malumfashi,Katsina,7.76914,11.98866,2,6.7
+155,23487,23487,4440332,3333343,school,Jinkirawa 1 Primary School,Primary school,Zurmi,Zamfara,6.59612,12.72903,2,6.73
+156,23485,23485,4463817,3356828,school,Gallu Primary School,Primary school,Mashi,Katsina,8.06619,13.1368,2,6.77
+157,23472,20250,4487289,3377078,school,Jiyayya Primary School,Primary school,Ajingi,Kano,9.09256,11.98137,2,6.8
+158,23471,9405,4510760,3386482,school,Government Primary School Eyibia Edikor,Primary school,Udung Uko,Akwa Ibom,8.22892,4.73265,2,6.84
+159,23447,22988,4534207,3409470,school,LEA Primary School Vongbap,Primary school,Langtang North,Plateau,9.8722,9.24923,2,6.87
+160,23439,22224,4557646,3431694,school,Gidan Alfarma Primary School,Primary school,Goronyo,Sokoto,5.64396,13.61515,2,6.91
+161,23430,22296,4581076,3453990,school,LEA Primary School Kubon,Primary school,Mangu,Plateau,9.06883,9.42605,2,6.95
+162,23399,23399,4604474,3477389,school,Endeshi Primary School,Primary school,Doma,Nasarawa,8.09082,7.99008,2,6.98
+163,23335,21510,4627810,3498899,school,District Council Basic School Mumuni,Primary school,Surulere,Oyo,4.34682,8.1278,2,7.02
+164,23318,23188,4651128,3522087,school,Gauza Primary School,Primary school,Rogo,Kano,7.90551,11.57391,5,7.05
+165,23278,19430,4674405,3541517,school,Universal Basic Education Primary School Sadak Bage,Primary school,Kachia,Kaduna,7.97118,9.69552,2,7.09
+166,23258,13192,4697664,3554709,school,UBE Secondary School Effoyo,Secondary school,Okpokwu,Benue,7.80966,7.15229,8,7.12
+167,23242,23242,4720906,3577951,school,Garjang Primary School,Primary school,Damboa,Borno,12.79718,11.02433,2,7.16
+168,23194,18741,4744099,3596692,school,Tabobo Primary School,Primary school,Dutse,Jigawa,9.35774,12.00607,2,7.19
+169,23148,23148,4767247,3619840,school,Nkumoro Community Primary School,Primary school,Izzi,Ebonyi,8.3403,6.54494,2,7.23
+170,23098,21630,4790346,3641470,school,Junior Secondary School Kwalam,Secondary school,Taura,Jigawa,9.39433,12.27282,8,7.26
+171,23090,23090,4813435,3664560,school,Afurzuna Primary School,Primary school,Kafin Hausa,Jigawa,9.99947,12.30243,1,7.3
+172,23077,23077,4836512,3687637,school,Gandawa Primary School,Primary school,Dambatta,Kano,8.568,12.49001,2,7.33
+173,23024,19315,4859537,3706952,school,Gidan Rana Primary School,Primary school,Gwadabawa,Sokoto,5.23096,13.45386,2,7.37
+174,22991,6310,4882527,3713262,school,St Peters Demonstration Nursery Primary School,Primary school,Jos South,Plateau,8.73729,9.69408,4,7.4
+175,22843,13186,4905370,3726448,school,Government Girls Junior Secondary School Diribo,Secondary school,Takai,Kano,9.18083,11.46924,6,7.44
+176,22824,22824,4928195,3749272,school,Atawame Primary School,Primary school,Jahun,Jigawa,9.44592,11.94484,2,7.47
+177,22820,22180,4951014,3771452,school,Marmara Primary School,Primary school,Malumfashi,Katsina,7.54748,11.79886,2,7.51
+178,22816,22816,4973830,3794267,school,Garin Waziri Primary School,Primary school,Safana,Katsina,7.23338,12.60976,2,7.54
+179,22778,22778,4996607,3817045,school,Tarbitul Islamiya Kanwuri Faru,Tertiary school,Maradun,Zamfara,6.28546,12.75321,5,7.58
+180,22774,22774,5019382,3839819,school,Yayaye Primary School,Primary school,Mai'adua,Katsina,8.22983,13.07877,2,7.61
+181,22768,22768,5042150,3862588,school,Community Primary School Ileaba,Primary school,Odigbo,Ondo,5.0055,6.65737,2,7.64
+182,22764,19167,5064915,3881754,school,Waziri Primary School,Primary school,Madagali,Adamawa,13.53012,10.73609,2,7.68
+183,22703,22703,5087618,3904458,school,Government Day Secondary School Kagara,Secondary school,Talata Mafara,Zamfara,6.13306,12.34973,4,7.71
+184,22581,5609,5110199,3910067,school,Uro Grammar School Uro,Secondary school,Isoko South,Delta,6.31622,5.45856,2,7.75
+185,22505,12260,5132704,3922326,school,Karefa Nomadic Primary School,Primary school,Tudun Wada,Kano,8.46034,11.28695,2,7.78
+186,22503,21016,5155208,3943343,school,Junior Secondary School Sauda,Secondary school,Mubi South,Adamawa,13.41006,10.14675,6,7.82
+187,22499,22499,5177706,3965841,school,Government Day Junior Secondary School Dabawa,Secondary school,Dutsin-Ma,Katsina,7.48272,12.52514,2,7.85
+188,22498,22498,5200204,3988339,school,Madawai Garga Primary School,Primary school,Damban,Bauchi,10.756,11.65644,4,7.88
+189,22488,17123,5222691,4005462,school,Tatari Primary School,Primary school,Funtua,Katsina,7.35764,11.41847,2,7.92
+190,22486,0,5245177,4005462,school,Ozolua Primary School,Primary school,Ikpoba-Okha,Edo,5.68936,6.24158,2,7.95
+191,22484,22484,5267661,4027945,school,Primary Schoolol Kwakwara,Primary school,Safana,Katsina,7.29894,12.39059,2,7.99
+192,22432,14892,5290093,4042838,school,Matugwai Primary School,Primary school,Sumaila,Kano,8.76457,11.26348,2,8.02
+193,22421,22421,5312514,4065259,school,Anguwar Lele Primary School,Primary school,Jega,Kebbi,4.28894,12.30933,2,8.05
+194,22403,19705,5334917,4084963,school,Kwara Primary School,Primary school,Shomgom,Gombe,11.0359,9.61112,2,8.09
+195,22394,11848,5357311,4096811,school,Akanu Item Primary School Campus,Primary school,Bende,Abia,7.68663,5.80054,2,8.12
+196,22391,17656,5379702,4114468,school,Hurgu Primary School,Primary school,Danja,Katsina,7.7039,11.4177,2,8.16
+197,22377,18781,5402079,4133249,school,Popandi Primary School,Primary school,Billiri,Gombe,11.08907,9.89134,2,8.19
+198,22375,21621,5424454,4154869,school,Dokoki Primary School,Primary school,Birni Kudu,Jigawa,9.35054,11.45754,2,8.22
+199,22329,20893,5446783,4175762,school,Ohuinyi Community Primary School Onuji,Primary school,Ishielu,Ebonyi,7.77873,6.34221,2,8.26
+200,22283,20775,5469067,4196537,school,Waro Primary School,Primary school,Gabasawa,Kano,8.92489,12.07548,2,8.29

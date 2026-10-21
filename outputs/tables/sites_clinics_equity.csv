@@ -1,0 +1,201 @@
+rank,people_reached,poorer_reached,cum_people,cum_poorer,host,name,kind,lga,state,lon,lat,hosts_in_cell,share_of_coverage_gap
+1,60497,60497,60497,60497,clinic,Prince Yese Health Clinic,Primary Health Center,Ushongo,Benue,9.13589,7.07347,1,0.09
+2,47542,39736,108040,100234,clinic,Bolo Comprehensive Health Center,Primary Health Center,Ogu/Bolo,Rivers,7.21987,4.66803,2,0.16
+3,43026,37732,151066,137966,clinic,Esit Ikot Nsa Ewa Health Post,Health Post,Akpabuyo,Cross River,8.49887,4.83181,1,0.23
+4,36734,36734,187800,174700,clinic,Dokau Mai Rimaye Health Centre,Clinic,Charanchi,Katsina,7.68441,12.60069,1,0.28
+5,35937,35937,223737,210637,clinic,Health Clinic Buduma,Clinic,Mai'adua,Katsina,8.17607,13.02482,1,0.34
+6,38034,35573,261771,246210,clinic,Agudele Umabor Health Post,Health Post,Nsukka,Enugu,7.54923,6.74847,1,0.4
+7,33859,33859,295630,280069,clinic,Nyajo Health Clinic,Primary Health Clinic,Buruku,Benue,9.25229,7.09225,1,0.45
+8,33054,32974,328684,313043,clinic,Bakane Health Centre,Clinic,Matazu,Katsina,7.57259,12.33108,1,0.5
+9,32943,32943,361626,345985,clinic,Shiddar Health Post,Health Post,Dambatta,Kano,8.56696,12.37492,1,0.55
+10,32471,32471,394097,378456,clinic,Masko Primary Health Centre,Clinic,Babura,Jigawa,8.86305,12.63042,1,0.6
+11,31435,31435,425532,409891,clinic,Mkadi Health Post,Health Post,Babura,Jigawa,8.97049,12.70422,1,0.65
+12,32213,30597,457746,440488,clinic,Abaniyawa Dispensary,Health Post,Kaura Namoda,Zamfara,6.51849,12.53042,1,0.69
+13,30216,30216,487962,470704,clinic,Kuki Primary Health Centre,Primary Health Center,Dutsin-Ma,Katsina,7.5994,12.409,1,0.74
+14,33353,30142,521314,500846,clinic,Izhokoma Mdg Health Center,Primary Health Center,Izzi,Ebonyi,8.35406,6.47092,1,0.79
+15,43117,29826,564432,530671,clinic,Eburuamenyi Health Post,Health Post,Udenu,Enugu,7.56879,6.82741,1,0.86
+16,29592,29592,594024,560263,clinic,Unguwar Mujiya Health Centre,Clinic,Dandume,Katsina,7.22835,11.39377,1,0.9
+17,29254,29254,623277,589517,clinic,Salihawar Maruji Health Post,Health Post,Matazu,Katsina,7.5468,12.20624,1,0.95
+18,28722,28722,651999,618239,clinic,Gwanda Model Primary Health Center,Primary Health Center,Dambatta,Kano,8.56746,12.57881,1,0.99
+19,28443,28443,680442,646682,clinic,Galdimari Primary Health Centre,Primary Health Center,Jama'are,Bauchi,10.03356,11.65731,1,1.03
+20,28361,28361,708803,675043,clinic,Tsangarwa Primary Health Centre,Primary Health Center,Gwaram,Jigawa,9.76059,11.43546,1,1.07
+21,30845,28346,739648,703388,clinic,Oniyere Primary Health Centre,Primary Health Center,Obokun,Osun,4.64593,7.78332,2,1.12
+22,28238,28117,767886,731506,clinic,Oklenyi Primary Health Clinic,Primary Health Clinic,Okpokwu,Benue,7.76546,7.04201,1,1.16
+23,28207,28104,796092,759610,clinic,Sikirit Health Post,Health Post,Billiri,Gombe,11.2294,9.94124,1,1.21
+24,28082,28082,824174,787691,clinic,Akinye Oja Primary Health Clinic,Primary Health Clinic,Ile-Oluji-Okeigbo,Ondo,4.94347,7.27969,1,1.25
+25,29188,28002,853362,815694,clinic,Mbakough Primary Health Clinic,Primary Health Clinic,Vandeikya,Benue,9.08769,6.96695,1,1.29
+26,37073,27890,890435,843583,clinic,Abissa Primary Health Center,Primary Health Center,Akuku Toru,Rivers,6.76449,4.39432,1,1.35
+27,27275,27275,917710,870859,clinic,Darna Sabon Gari Health Post,Primary Health Center,Illela,Sokoto,5.39779,13.57965,1,1.39
+28,29706,27267,947416,898126,clinic,Kasuwan Dutse Health Centre,Clinic,Zaria,Kaduna,7.62799,11.01839,1,1.44
+29,27955,27177,975372,925303,clinic,Bedi South Primary Health Centre,Primary Health Center,Zuru,Kebbi,5.33543,11.42184,1,1.48
+30,27130,27024,1002502,952327,clinic,Yarhaya Health Centre,Clinic,Kusada,Katsina,8.03392,12.47553,1,1.52
+31,26973,26973,1029475,979300,clinic,Tuge Primary Health Centre,Primary Health Center,Musawa,Katsina,7.60579,11.98267,1,1.56
+32,26828,26828,1056303,1006128,clinic,Yarlagwada Health Centre,Clinic,Sabuwa,Katsina,7.14263,11.23041,1,1.6
+33,26792,26792,1083095,1032920,clinic,Mudurin Gadi Health Post,,Babura,Jigawa,8.93834,12.61371,1,1.64
+34,28734,26718,1111829,1059638,clinic,Jibga Health Post,Clinic,Makoda,Kano,8.47931,12.42313,1,1.69
+35,33484,26567,1145313,1086205,clinic,Emoh Health Post,Health Post,Abua/Odual,Rivers,6.65448,4.8009,1,1.74
+36,30623,26477,1175935,1112682,clinic,Banga Primary Health Centre,Primary Health Center,Kaura Namoda,Zamfara,6.62828,12.51094,1,1.78
+37,29199,26277,1205135,1138959,clinic,Ogogodoja Primary Health Centre,Primary Health Center,Atakumosa West,Osun,4.65713,7.42626,1,1.83
+38,26036,26036,1231171,1164994,clinic,Karfawa Primary Health Center,Primary Health Center,Jama'are,Bauchi,9.88766,11.60086,2,1.87
+39,35285,25976,1266456,1190970,clinic,Ago Panu Primary Health Clinic,Primary Health Clinic,Owo,Ondo,5.62302,7.27873,1,1.92
+40,25966,25966,1292422,1216936,clinic,Tasheguwa Primary Health Centre,Primary Health Center,Kiri Kasamma,Jigawa,10.14056,12.54535,1,1.96
+41,25962,25962,1318384,1242898,clinic,Galantumfafi Dispensary,Health Post,Shira,Bauchi,10.10555,11.42691,2,2.0
+42,25804,25804,1344188,1268702,clinic,Hayin Gada Health Post,Health Post,Garko,Kano,8.87435,11.50199,1,2.04
+43,25839,25767,1370026,1294469,clinic,Sahasha Clinic And Maternity Home,Maternity Home,Birnin Magaji,Zamfara,6.81049,12.54311,1,2.08
+44,25753,25753,1395780,1320222,clinic,Yayaye Health Centre,Clinic,Mai'adua,Katsina,8.22957,13.07819,1,2.12
+45,27028,25483,1422808,1345706,clinic,Albasu Health Centre,Clinic,Sabuwa,Katsina,7.13259,11.3769,1,2.16
+46,28765,25382,1451573,1371087,clinic,Hurtumi Health Centre,Clinic,Baure,Katsina,8.7059,12.70252,1,2.2
+47,25103,25103,1476677,1396191,clinic,Dansarai Primary Health Centre,Primary Health Center,Malumfashi,Katsina,7.7701,11.98815,1,2.24
+48,28287,25068,1504964,1421259,clinic,Yangeme Health Center,Health Center,Kankara,Katsina,7.54098,11.9198,1,2.28
+49,24932,24932,1529896,1446190,clinic,Turba Maternal And Child Health Clinic,Primary Health Clinic,Isa,Sokoto,6.38494,13.28123,1,2.32
+50,29035,24928,1558931,1471119,clinic,Kawo Health Post,Health Post,Garko,Kano,8.77091,11.68159,1,2.36
+51,24769,24769,1583700,1495887,clinic,Kofa Maternal And Child Health Centre,Primary Health Center,Kusada,Katsina,7.88308,12.44975,1,2.4
+52,24531,24531,1608230,1520418,clinic,Lanjego Health Post,Health Post,Sabon Birni,Sokoto,6.20046,13.60732,1,2.44
+53,27662,24522,1635892,1544940,clinic,Daurawa Health Clinic,Clinic,Musawa,Katsina,7.84754,12.1957,1,2.48
+54,24521,24521,1660413,1569461,clinic,Yangemu Health Centre,Clinic,Batagarawa,Katsina,7.44052,12.89993,1,2.52
+55,24417,24296,1684829,1593758,clinic,Mantau Primary Health Centre,Primary Health Center,Baure,Katsina,8.87318,12.72434,1,2.55
+56,24245,24186,1709074,1617943,clinic,Mararrabar Danja Health Clinic,Clinic,Kazaure,Jigawa,8.48765,12.65357,1,2.59
+57,24184,24184,1733258,1642128,clinic,Haladawa Health Post,Health Post,Babura,Jigawa,8.88947,12.50174,1,2.63
+58,24177,24177,1757435,1666304,clinic,Dandoro Primary Health Centre,Primary Health Center,Kankia,Katsina,7.89932,12.56037,1,2.66
+59,24174,24174,1781609,1690478,clinic,Garango Dispensary,,Kankara,Katsina,7.58883,11.84185,1,2.7
+60,24435,24157,1806044,1714635,clinic,Ahula Health Clinic,Primary Health Center,Ushongo,Benue,9.08842,7.12806,1,2.74
+61,24652,24146,1830696,1738781,clinic,Gogon Hako Health Center,Health Center,Batsari,Katsina,7.27845,12.97561,1,2.78
+62,28096,24118,1858792,1762899,clinic,Futu Primary Health Centre,Primary Health Center,Michika,Adamawa,13.45912,10.57611,2,2.82
+63,24073,24073,1882865,1786972,clinic,Diwigi Primary Health Centre,Primary Health Center,Gwiwa,Jigawa,8.3375,12.73315,1,2.85
+64,24041,24041,1906907,1811013,clinic,Zaure Health Post,Health Post,Damban,Bauchi,10.78424,11.72399,1,2.89
+65,24710,23995,1931616,1835008,clinic,Janda Primary Health Center,Primary Health Center,Riyom,Plateau,8.80092,9.47624,1,2.93
+66,26735,23913,1958351,1858921,clinic,Obonoma Model Primary Health Center,Primary Health Center,Akuku Toru,Rivers,6.79108,4.71472,1,2.97
+67,23851,23851,1982202,1882772,clinic,Imande Adega Primary Health Clinic,Primary Health Clinic,Logo,Benue,9.39836,7.56466,1,3.01
+68,23818,23818,2006020,1906590,clinic,Badawa Maternal And Child Health,Primary Health Center,Malumfashi,Katsina,7.78018,11.87001,1,3.04
+69,23694,23694,2029713,1930284,clinic,Kunamawa Health Clinic,Clinic,Safana,Katsina,7.38463,12.36368,1,3.08
+70,23661,23661,2053374,1953944,clinic,Hui Maternal And Child Health Clinic,Primary Health Center,Baure,Katsina,8.78693,12.78317,1,3.11
+71,26074,23594,2079448,1977538,clinic,Zaura Health Post,Health Post,Dawakin Tofa,Kano,8.38894,12.21264,1,3.15
+72,23697,23553,2103145,2001091,clinic,Mondo Primary Health Clinic,Primary Health Clinic,Konshisha,Benue,8.80806,6.96634,1,3.19
+73,23547,23547,2126693,2024638,clinic,Tsubut Health Post,,Gwiwa,Jigawa,8.21891,12.68204,2,3.22
+74,24409,23482,2151102,2048120,clinic,Rumah Primary Health Centre,Primary Health Center,Batsari,Katsina,7.23381,12.85845,1,3.26
+75,23450,23450,2174552,2071570,clinic,Kungurki Dispensary,Health Post,Zurmi,Zamfara,6.56841,12.68707,1,3.3
+76,26284,23291,2200836,2094861,clinic,Tofai Health Post,Health Post,Gabasawa,Kano,8.83409,12.05597,1,3.34
+77,23535,23235,2224370,2118096,clinic,Tsabawa Maternal And Child Health Clinic,Primary Health Clinic,Batsari,Katsina,7.33492,12.70853,1,3.37
+78,23185,23185,2247555,2141281,clinic,Gidan Adamu Dispensary,Health Post,Maradun,Zamfara,6.31393,12.74066,1,3.41
+79,23176,23176,2270731,2164456,clinic,Bangire Maternity,Maternity Home,Shira,Bauchi,10.06515,11.57157,2,3.44
+80,25403,23170,2296134,2187626,clinic,Yakawada Health Centre,Clinic,Sandamu,Katsina,8.40739,12.90749,1,3.48
+81,23130,23130,2319264,2210756,clinic,Ruwan Gora Dispensary,Health Post,Talata Mafara,Zamfara,6.02046,12.28947,1,3.52
+82,22977,22977,2342241,2233734,clinic,Agbashi Primary Health Centre,Primary Health Center,Doma,Nasarawa,8.11971,8.00592,1,3.55
+83,25755,22914,2367996,2256647,clinic,Khaddamari Clinic,Clinic,Jere,Borno,13.22312,11.94741,1,3.59
+84,25952,22872,2393948,2279519,clinic,Ikot Otu Abasi Health Center,Primary Health Center,Akpabuyo,Cross River,8.53021,4.94434,1,3.63
+85,22832,22832,2416780,2302352,clinic,Dan Guro Basic Health Center,Primary Health Clinic,Bungudu,Zamfara,6.54816,12.41258,1,3.66
+86,25933,22804,2442714,2325156,clinic,Baraji Health Post,Health Post,Rogo,Kano,7.99731,11.52184,1,3.7
+87,24567,22743,2467281,2347899,clinic,Jigawa Primary Health Centre,Primary Health Center,Bade,Yobe,10.83413,12.85996,1,3.74
+88,24096,22692,2491377,2370591,clinic,Dimgam Health Post,Health Post,Ganye,Adamawa,11.95508,8.44849,1,3.78
+89,24439,22590,2515816,2393181,clinic,Arkilla Basic Health Center,Primary Health Clinic,Wamako,Sokoto,5.15549,13.00237,1,3.81
+90,22558,22558,2538374,2415739,clinic,Gora Karofi Health Centre,Health Post,Bunkure,Kano,8.48554,11.60366,1,3.85
+91,22516,22516,2560890,2438255,clinic,Garin Waziri Health Clinic,Clinic,Safana,Katsina,7.2332,12.60942,1,3.88
+92,22402,22402,2583292,2460656,clinic,Dumama Health Clinic,Clinic,Zurmi,Zamfara,6.46275,12.76748,1,3.92
+93,22376,22376,2605668,2483033,clinic,Rapha Hospital and Maternity,Primary Health Center,Izzi,Ebonyi,8.15512,6.41614,1,3.95
+94,22329,22329,2627997,2505361,clinic,Okpoku Primary Health Centre,Clinic,Ankpa,Kogi,7.74258,7.50567,1,3.98
+95,26265,22319,2654261,2527681,clinic,Kote Health Center,Health Center,Bama,Borno,14.04886,11.41373,1,4.02
+96,26685,22294,2680946,2549975,clinic,Yewuti Primary Health Care Clinic,Primary Health Center,Kwali,Federal Capital Territory,6.92292,8.54773,1,4.06
+97,22608,22234,2703554,2572209,clinic,Madadi Primary Health Centre,Primary Health Center,Gwandu,Kebbi,4.57059,12.36306,1,4.1
+98,22221,22221,2725775,2594430,clinic,Wazoji Dispensary,Primary Health Center,Bungudu,Zamfara,6.77553,12.25141,1,4.13
+99,22142,22142,2747917,2616572,clinic,Birki Health Centre,Primary Health Center,Mani,Katsina,8.07685,12.87279,1,4.17
+100,22517,22135,2770435,2638708,clinic,Tudun Doki Health Post,Health Post,Gwadabawa,Sokoto,5.27996,13.40512,1,4.2
+101,22089,22089,2792524,2660797,clinic,Tarkwembe Tyowanje Clinic,Primary Health Center,Ushongo,Benue,9.2005,7.04354,1,4.23
+102,22212,22044,2814736,2682841,clinic,Center Rinji Health Clinic,Primary Health Center,Musawa,Katsina,7.83502,12.12395,1,4.27
+103,21999,21999,2836735,2704840,clinic,Bara Health Post,Health Post,Jega,Kebbi,4.30198,12.3101,1,4.3
+104,21978,21978,2858713,2726818,clinic,Jinfin Nawala Health Centre,Clinic,Matazu,Katsina,7.61594,12.16603,1,4.33
+105,21911,21911,2880624,2748729,clinic,Dabawa Health Centre,Primary Health Center,Dutsin-Ma,Katsina,7.48477,12.52805,1,4.37
+106,21876,21876,2902500,2770605,clinic,Hazo Health Post,,Giwa,Kaduna,7.34678,11.20362,2,4.4
+107,23000,21866,2925500,2792472,clinic,Kubon Primary Health Care,Primary Health Center,Mangu,Plateau,9.07027,9.4258,1,4.44
+108,29282,21789,2954782,2814261,clinic,Wassa Qatar Primary Health Centre,Primary Health Center,Abuja Municipal,Federal Capital Territory,7.47774,8.87522,1,4.48
+109,22138,21785,2976920,2836046,clinic,Limun Primary Health Center,Health Post,Langtang North,Plateau,9.86197,9.23689,1,4.51
+110,22251,21657,2999171,2857703,clinic,Lakalkal Health Post,Health Post,Billiri,Gombe,11.0865,9.86207,1,4.55
+111,21621,21621,3020791,2879323,clinic,Zangon Kanya Health Post,Health Post,Kafin Hausa,Jigawa,10.04376,12.03424,1,4.58
+112,21606,21606,3042398,2900929,clinic,Kagara Health Post,Primary Health Center,Talata Mafara,Zamfara,6.13295,12.35063,2,4.61
+113,23050,21583,3065448,2922512,clinic,Maje Primary Health Centre,Clinic,Taura,Jigawa,9.38043,12.24217,1,4.65
+114,21565,21565,3087013,2944077,clinic,Garin Malam Health Post,Clinic,Gamawa,Bauchi,10.79795,12.0556,1,4.68
+115,21553,21553,3108566,2965630,clinic,Dabai Primary Health Centre,Primary Health Clinic,Danja,Katsina,7.63821,11.37396,1,4.71
+116,21522,21522,3130088,2987152,clinic,Tarmasuwa Primary Health Centre,Primary Health Center,Gamawa,Bauchi,10.7919,11.82614,1,4.75
+117,21519,21519,3151607,3008672,clinic,Njoboli Primary Health Centre,Primary Health Center,Yola South,Adamawa,12.58797,9.20093,1,4.78
+118,22530,21492,3174137,3030164,clinic,Durmawa Health Post,Health Post,Bebeji,Kano,8.25832,11.60517,1,4.81
+119,22307,21445,3196444,3051609,clinic,Tadeta Health Clinic,Clinic,Batsari,Katsina,7.26833,12.78318,1,4.85
+120,21526,21420,3217970,3073029,clinic,Kunduwa Health Clinic,Clinic,Dutsin-Ma,Katsina,7.58755,12.52879,1,4.88
+121,23745,21411,3241715,3094439,clinic,Buzawa Primary Health Centre,Primary Health Center,Itas/Gadau,Bauchi,9.7038,11.7685,1,4.92
+122,21661,21364,3263377,3115803,clinic,Kibori Ecwa Health Clinic,Clinic,Zango-Kataf,Kaduna,8.41949,9.84509,1,4.95
+123,21363,21363,3284739,3137166,clinic,Bugaje Model Primary Health Center,Primary Health Center,Jibia,Katsina,7.49136,12.98747,1,4.98
+124,21350,21350,3306089,3158515,clinic,Famter Health Clinic and Maternity,Unknown,Logo,Benue,9.42279,7.48233,1,5.01
+125,21270,21270,3327359,3179785,clinic,Lafani Health Post,Health Post,Illela,Sokoto,5.42047,13.76967,1,5.04
+126,21240,21240,3348600,3201026,clinic,Dabji Health Post,Health Post,Misau,Bauchi,10.52067,11.35641,1,5.08
+127,21235,21235,3369834,3222260,clinic,Aisha Health Clinic,Clinic,Bungudu,Zamfara,6.86898,12.17406,1,5.11
+128,21166,21166,3391000,3243426,clinic,Atawame Health Post,Health Post,Jahun,Jigawa,9.45144,11.94382,1,5.14
+129,21261,21157,3412261,3264583,clinic,Udei Comprehensive Health Center,Primary Health Center,Guma,Benue,8.55305,8.07921,1,5.17
+130,21084,21084,3433345,3285667,clinic,Brizik Divine Favour Health Center,Primary Health Center,Onicha,Ebonyi,7.75806,6.10484,1,5.21
+131,21402,21050,3454746,3306717,clinic,Zamalen Kade Health Clinic,Primary Health Center,Goronyo,Sokoto,5.65461,13.58778,1,5.24
+132,21969,21044,3476716,3327761,clinic,Yan Lami Health Post,Health Post,Bichi,Kano,8.33775,12.32024,1,5.27
+133,24864,20989,3501579,3348750,clinic,Jobe Health Post,Health Post,Ingawa,Katsina,8.01707,12.59677,1,5.31
+134,21128,20986,3522707,3369737,clinic,Our Heritage Polyclinic Clinic,Unknown,Irele,Ondo,4.85459,6.49427,1,5.34
+135,23349,20983,3546056,3390720,clinic,Ganakakum Health Post,Clinic,Warawa,Kano,8.72809,11.93932,1,5.38
+136,20978,20978,3567034,3411698,clinic,Sharaf Dispensary,Health Post,Ningi,Bauchi,9.5142,11.3031,1,5.41
+137,28325,20958,3595358,3432656,clinic,Dutsen Habba Health Post,Health Post,Zaria,Kaduna,7.74245,10.97019,2,5.45
+138,21692,20937,3617050,3453593,clinic,Dokoki Health Post,Health Post,Birni Kudu,Jigawa,9.34791,11.45812,1,5.48
+139,20880,20864,3637930,3474457,clinic,Dutsen Saki Primary Health Centre,Primary Health Center,Tafawa-Balewa,Bauchi,9.43916,9.73596,1,5.52
+140,20844,20844,3658774,3495301,clinic,Todai Health Clinic,Clinic,Ingawa,Katsina,8.12684,12.71994,1,5.55
+141,20823,20823,3679597,3516124,clinic,Magariya Health Post,Health Post,Zurmi,Zamfara,6.60356,12.75827,1,5.58
+142,20795,20795,3700393,3536919,clinic,Gallu Maternal And Child Health,Primary Health Center,Mashi,Katsina,8.09716,13.1277,1,5.61
+143,21080,20793,3721473,3557712,clinic,Gora Kwachido Primary Health Centre,Primary Health Center,Gwandu,Kebbi,4.72559,12.40801,1,5.64
+144,21018,20744,3742491,3578455,clinic,Zangina Health Post,Health Post,Zuru,Kebbi,5.26159,11.51755,1,5.67
+145,20709,20709,3763200,3599165,clinic,Unguwar Alher Health Clinic,Health Post,Bakori,Katsina,7.51047,11.54382,1,5.71
+146,22278,20666,3785478,3619831,clinic,Dorayi Dispensary,Health Post,Danja,Katsina,7.49752,11.3886,1,5.74
+147,20856,20651,3806334,3640481,clinic,Kaime Health Post,Health Post,Gada,Sokoto,5.56115,13.52309,1,5.77
+148,21253,20622,3827587,3661103,clinic,Taurarin Doka Health Centre,Clinic,Kankia,Katsina,7.78131,12.56928,2,5.8
+149,20605,20605,3848192,3681708,clinic,Kafin Bubari Primary Health Centre,Health Post,Misau,Bauchi,10.52285,11.48856,1,5.83
+150,20573,20573,3868765,3702281,clinic,Birnin Lafiya Primary Health Centre,Clinic,Argungu,Kebbi,4.25967,12.58569,1,5.87
+151,21800,20500,3890565,3722781,clinic,Oju Ala Primary Health Clinic,Primary Health Clinic,Ese-Odo,Ondo,4.87732,6.40808,1,5.9
+152,21499,20408,3912064,3743189,clinic,Mekiya Health Post,Health Post,Gabasawa,Kano,8.87568,12.23395,1,5.93
+153,20396,20396,3932460,3763585,clinic,Babban Duhu A Health Center,Health Center,Safana,Katsina,7.24632,12.69057,1,5.96
+154,20751,20377,3953211,3783962,clinic,Makera Health Clinic,Clinic,Birnin Magaji,Zamfara,6.79778,12.42916,1,5.99
+155,23899,20376,3977111,3804339,clinic,Yargamji Maternal And Child Health Centre,Primary Health Center,Batagarawa,Katsina,7.52983,12.72984,1,6.03
+156,20355,20355,3997466,3824694,clinic,Rane Health Facility,Clinic,Bakura,Zamfara,5.83616,12.79904,1,6.06
+157,20273,20273,4017740,3844967,clinic,Atuman Health Post,Health Post,Jahun,Jigawa,9.49672,12.07704,1,6.09
+158,20204,20204,4037944,3865172,clinic,Etane Primary Health Centre,Primary Health Center,Kalgo,Kebbi,4.03033,12.24248,1,6.12
+159,20183,20183,4058126,3885354,clinic,Yar Riga Model Primary Health Center Primary Health Centre,Primary Health Center,Mashi,Katsina,8.00127,12.94804,1,6.15
+160,20165,20165,4078291,3905519,clinic,Tsamiya Maternity Health Centre,Clinic,Darazo,Bauchi,10.44756,11.05569,1,6.18
+161,20148,20148,4098439,3925667,clinic,Wangara Primary Health Center,,Dutse,Jigawa,9.30501,11.84547,1,6.21
+162,20146,20146,4118585,3945813,clinic,Kukuma Primary Health Centre,Primary Health Center,Buji,Jigawa,9.6962,11.45069,1,6.24
+163,21259,20081,4139844,3965894,clinic,Jebra Health Center,Health Center,Bama,Borno,13.94476,11.38839,1,6.28
+164,26706,20023,4166551,3985918,clinic,Amaka Primary Health Center,Primary Health Center,Igalamela-Odolu,Kogi,7.34422,7.06766,1,6.32
+165,20009,20009,4186560,4005927,clinic,Murai Dispensary,Health Post,Birnin Magaji,Zamfara,6.88327,12.31015,1,6.35
+166,21424,19937,4207984,4025864,clinic,Sahuda Primary Health Centre,Primary Health Center,Mubi South,Adamawa,13.41565,10.14216,1,6.38
+167,22551,19811,4230535,4045675,clinic,Tabobo Health Post,Health Post,Dutse,Jigawa,9.35668,12.0092,1,6.41
+168,21010,19809,4251545,4065484,clinic,Gwaigwaye Health Post,Health Post,Funtua,Katsina,7.22536,11.50996,1,6.45
+169,19754,19754,4271299,4085238,clinic,Jadori Health Post,Clinic,Gamawa,Bauchi,10.59606,12.22383,1,6.48
+170,22809,19743,4294108,4104981,clinic,Ung / Nakaba Health Centre,Clinic,Sabuwa,Katsina,7.04341,11.31783,1,6.51
+171,21986,19730,4316094,4124711,clinic,Jotta Clinic and Maternity,Primary Health Center,Tarka,Benue,8.8407,7.58948,1,6.54
+172,22343,19705,4338438,4144415,clinic,Kwara Health Post,Health Post,Shomgom,Gombe,11.03679,9.6131,1,6.58
+173,19657,19657,4358095,4164073,clinic,Wabu Primary Health Centre,Primary Health Center,Gamawa,Bauchi,10.7416,11.96348,1,6.61
+174,19649,19649,4377744,4183721,clinic,Babuwuri Health Post,Health Post,Itas/Gadau,Bauchi,10.12091,12.01007,1,6.64
+175,19631,19631,4397375,4203353,clinic,Nasarawa Dispensary,Health Post,Kaita,Katsina,7.86715,13.21277,1,6.67
+176,22170,19623,4419545,4222975,clinic,Kaban Health Post,Health Post,Auyo,Jigawa,10.12381,12.3987,1,6.7
+177,19614,19614,4439159,4242589,clinic,Bagudu Health Centre,Clinic,Kafur,Katsina,7.62813,11.62093,1,6.73
+178,19591,19591,4458751,4262181,clinic,Shamlin Kware Dispensary,Health Post,Anka,Zamfara,5.80212,12.21289,2,6.76
+179,19659,19590,4478410,4281771,clinic,Dankanjiba Health Centre,Primary Health Center,Kafur,Katsina,7.82508,11.76945,1,6.79
+180,19557,19557,4497967,4301328,clinic,Unguwar Kalgo Health Post,Health Post,Yankwashi,Jigawa,8.58079,12.69502,1,6.82
+181,19552,19552,4517519,4320880,clinic,Gumzu Health Centre,Clinic,Sandamu,Katsina,8.49173,12.83955,1,6.85
+182,21874,19496,4539394,4340376,clinic,Freedom Clinic,Primary Health Clinic,Akoko South West,Ondo,5.8022,7.4667,1,6.88
+183,19459,19459,4558853,4359836,clinic,Guzurawa Health Center,Health Center,Safana,Katsina,7.27038,12.39522,1,6.91
+184,19454,19454,4578307,4379290,clinic,Gobirawa Health Clinic,Clinic,Funtua,Katsina,7.37333,11.40029,1,6.94
+185,23922,19420,4602229,4398710,clinic,Bungudawa Health Clinic,Clinic,Bungudu,Zamfara,6.69104,12.31571,2,6.98
+186,27426,19420,4629655,4418130,clinic,Danmakwarwa Health Centre,Clinic,Sabon-Gari,Kaduna,7.70976,11.20196,1,7.02
+187,19397,19397,4649052,4437526,clinic,Unguwar Gaje Health Centre,Primary Health Center,Zango,Katsina,8.50851,12.93205,1,7.05
+188,21841,19378,4670893,4456904,clinic,Tsaranyi Dispensary,Health Post,Mubi South,Adamawa,13.25732,10.14728,1,7.08
+189,19341,19341,4690234,4476245,clinic,Ganji Health Clinic,Clinic,Ningi,Bauchi,9.15333,11.16026,1,7.11
+190,20088,19300,4710322,4495545,clinic,Wahu Primary Health Centre,Primary Health Center,Darazo,Bauchi,10.65547,11.38616,1,7.14
+191,22520,19298,4732842,4514843,clinic,Jiyayya Health Post,Health Post,Ajingi,Kano,9.09439,11.98132,1,7.18
+192,22890,19257,4755732,4534100,clinic,Kure Primary Health Centre,Primary Health Center,Kibiya,Kano,8.75756,11.51091,1,7.21
+193,19675,19242,4775407,4553342,clinic,Gakulan Ganuwa Health Post,Health Post,Darazo,Bauchi,10.51616,11.14997,1,7.24
+194,19825,19221,4795233,4572563,clinic,Yalwa Health Post,Clinic,Rano,Kano,8.52691,11.43286,1,7.27
+195,20114,19210,4815347,4591773,clinic,Gidan Baki Primary Health Centre,Primary Health Center,Warji,Bauchi,9.59883,11.17112,1,7.3
+196,20170,19194,4835518,4610967,clinic,Kwaturu Usman Health Centre,Clinic,Kachia,Kaduna,7.97541,9.66439,1,7.33
+197,19173,19173,4854691,4630140,clinic,Labayo Health Post,Health Post,Shomgom,Gombe,11.29267,9.65163,1,7.36
+198,19164,19164,4873855,4649305,clinic,Damawa Health Clinic,Clinic,Kankara,Katsina,7.50035,12.05318,1,7.39
+199,20673,19114,4894528,4668419,clinic,Dabi Primary Health Centre,Primary Health Center,Ringim,Jigawa,8.95672,12.10001,1,7.42
+200,20459,19109,4914987,4687528,clinic,Sabon Kwara Primary Health Centre,Primary Health Center,Obi,Nasarawa,8.51487,8.3591,1,7.45

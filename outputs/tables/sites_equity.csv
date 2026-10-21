@@ -1,0 +1,201 @@
+rank,people_reached,poorer_reached,cum_people,cum_poorer,host,name,kind,lga,state,lon,lat,hosts_in_cell,share_of_coverage_gap
+1,63447,63447,63447,63447,school,LGEA Primary School Gbandepev,Primary school,Ushongo,Benue,9.13201,7.08866,2,0.1
+2,44176,44176,107622,107622,school,LGEA Primary School Ionguga,Primary school,Ushongo,Benue,9.2129,7.07454,2,0.16
+3,48801,39736,156423,147358,school,Community Secondary School Bolo,Secondary school,Ogu/Bolo,Rivers,7.21986,4.67062,4,0.24
+4,42899,37880,199322,185238,school,Government Migrants Secondary School,Secondary school,Akpabuyo,Cross River,8.5071,4.83311,4,0.3
+5,37611,37611,236933,222849,school,Government Day Secondary School Tsabu,Secondary school,Mai'adua,Katsina,8.17725,13.03516,2,0.36
+6,36734,36734,273667,259583,clinic,Dokau Mai Rimaye Health Centre,Clinic,Charanchi,Katsina,7.68441,12.60069,3,0.41
+7,44337,36423,318004,296005,school,Stella Maris College Ugwu Eke Breme Umuabor,Primary school,Nsukka,Enugu,7.54766,6.76017,2,0.48
+8,33054,32974,351058,328979,clinic,Bakane Health Centre,Clinic,Matazu,Katsina,7.57259,12.33108,3,0.53
+9,32943,32943,384001,361922,clinic,Shiddar Health Post,Health Post,Dambatta,Kano,8.56696,12.37492,3,0.58
+10,33681,32639,417682,394560,school,Dankano Primary School,Primary school,Babura,Jigawa,8.8996,12.61173,2,0.63
+11,35182,31971,452864,426532,school,Mbeke Community School Campus 1,Primary school,Izzi,Ebonyi,8.37239,6.47033,2,0.69
+12,31435,31435,484299,457966,clinic,Mkadi Health Post,Health Post,Babura,Jigawa,8.97049,12.70422,3,0.73
+13,33608,30949,517907,488915,school,Abaniyawa Primary School,Primary school,Kaura Namoda,Zamfara,6.51594,12.53742,2,0.79
+14,30715,30715,548622,519630,school,Kundu Primary School,Primary school,Dutsin-Ma,Katsina,7.58818,12.42216,2,0.83
+15,41102,30641,589724,550272,school,National Primary School Eha Ezuabor,Primary school,Nsukka,Enugu,7.57991,6.82521,2,0.89
+16,30205,30205,619928,580476,school,Akinye Community Junior Grammar School,Secondary school,Ile-Oluji-Okeigbo,Ondo,4.9573,7.27905,4,0.94
+17,33601,30193,653529,610670,school,Local Authority Primary School Toba,Primary school,Ife South,Osun,4.64769,7.42721,2,0.99
+18,34112,29967,687642,640636,school,Dandambo Primary School,Primary school,Kaura Namoda,Zamfara,6.64968,12.50843,2,1.04
+19,38774,29760,726415,670397,school,Government Secondary School Abesse,Secondary school,Akuku Toru,Rivers,6.76358,4.39868,2,1.1
+20,30731,29747,757147,700143,school,L G E A School Ogwuche Akpa,Secondary school,Okpokwu,Benue,7.76101,7.05149,2,1.15
+21,29592,29592,786738,729735,clinic,Unguwar Mujiya Health Centre,Clinic,Dandume,Katsina,7.22835,11.39377,1,1.19
+22,29461,29461,816200,759197,school,Rafin Yaki Primary School,Primary school,Zuru,Kebbi,5.32289,11.42837,2,1.24
+23,29436,29436,845636,788633,school,Tsaba Primary School,Primary school,Dambatta,Kano,8.57742,12.58866,2,1.28
+24,29396,29396,875032,818029,school,Community Nursery and Primary School Gbatse,Primary school,Vandeikya,Benue,9.10161,7.00276,2,1.33
+25,29254,29254,904286,847283,clinic,Salihawar Maruji Health Post,Health Post,Matazu,Katsina,7.5468,12.20624,3,1.37
+26,28443,28443,932728,875725,clinic,Galdimari Primary Health Centre,Primary Health Center,Jama'are,Bauchi,10.03356,11.65731,5,1.41
+27,28361,28361,961089,904086,clinic,Tsangarwa Primary Health Centre,Primary Health Center,Gwaram,Jigawa,9.76059,11.43546,3,1.46
+28,30845,28346,991934,932432,clinic,Oniyere Primary Health Centre,Primary Health Center,Obokun,Osun,4.64593,7.78332,4,1.5
+29,28207,28104,1020141,960536,clinic,Sikirit Health Post,Health Post,Billiri,Gombe,11.2294,9.94124,1,1.55
+30,27909,27909,1048050,988445,school,Hayatul Islam,Primary school,Sabuwa,Katsina,7.13427,11.2385,2,1.59
+31,36770,27900,1084820,1016345,school,Abubakar Shehu Mairogo Universal Basic Education Primary,Primary school,Zaria,Kaduna,7.67186,11.01462,2,1.64
+32,32072,27577,1116892,1043922,school,Dankaza Kantudu Primary School,Primary school,Wudil,Kano,8.81047,11.70527,2,1.69
+33,29527,27511,1146419,1071433,school,Jibga Primary School,Primary school,Makoda,Kano,8.478,12.42237,2,1.74
+34,27336,27336,1173755,1098769,school,Dan Amale Primary School,Primary school,Babura,Jigawa,8.83529,12.66477,2,1.78
+35,27275,27275,1201030,1126045,clinic,Darna Sabon Gari Health Post,Primary Health Center,Illela,Sokoto,5.39779,13.57965,3,1.82
+36,27130,27024,1228160,1153069,clinic,Yarhaya Health Centre,Clinic,Kusada,Katsina,8.03392,12.47553,3,1.86
+37,26973,26973,1255133,1180042,clinic,Tuge Primary Health Centre,Primary Health Center,Musawa,Katsina,7.60579,11.98267,1,1.9
+38,30494,26754,1285627,1206796,school,Gidan Jurau Nursery And Primary,Primary school,Rogo,Kano,7.99709,11.49666,2,1.95
+39,26734,26734,1312361,1233530,school,Karari Primary School,Primary school,Sabon Birni,Sokoto,6.21709,13.57394,2,1.99
+40,26660,26660,1339022,1260190,school,Junior Secondary School Tasheguwa,Secondary school,Kiri Kasamma,Jigawa,10.14405,12.54949,3,2.03
+41,26643,26643,1365665,1286833,school,Gordo Primary School,Primary school,Babura,Jigawa,8.86131,12.52027,2,2.07
+42,33444,26606,1399109,1313439,school,Aworo Primary School Aworo Camp,Primary school,Owo,Ondo,5.59506,7.29313,2,2.12
+43,33484,26567,1432593,1340006,clinic,Emoh Health Post,Health Post,Abua/Odual,Rivers,6.65448,4.8009,3,2.17
+44,26295,26295,1458888,1366301,school,Illoja Primary School,Primary school,Birnin Magaji,Zamfara,6.81748,12.52256,2,2.21
+45,26271,26271,1485159,1392572,school,Saburuji Primary School,Primary school,Shira,Bauchi,10.01812,11.57263,2,2.25
+46,26036,26036,1511194,1418608,clinic,Karfawa Primary Health Center,Primary Health Center,Jama'are,Bauchi,9.88766,11.60086,4,2.29
+47,25962,25962,1537156,1444570,clinic,Galantumfafi Dispensary,Health Post,Shira,Bauchi,10.10555,11.42691,4,2.33
+48,25900,25900,1563056,1470470,school,Garin Jambiri Primary School,Primary school,Gamawa,Bauchi,10.78622,11.76036,2,2.37
+49,25859,25859,1588916,1496329,school,Dundumawa Islamiyya Primary School,Primary school,Sumaila,Kano,8.88285,11.50316,2,2.41
+50,25769,25769,1614685,1522098,school,Iddikki Primary School,Primary school,Illela,Sokoto,5.39529,13.76023,2,2.45
+51,31617,25739,1646302,1547837,school,Gongulon Gumsumuri Primary School,Primary school,Jere,Borno,13.21343,11.92344,2,2.5
+52,27028,25483,1673330,1573320,clinic,Albasu Health Centre,Clinic,Sabuwa,Katsina,7.13259,11.3769,3,2.54
+53,28765,25382,1702095,1598702,clinic,Hurtumi Health Centre,Clinic,Baure,Katsina,8.7059,12.70252,3,2.58
+54,28615,25308,1730710,1624010,school,Daurawa Primary School,Primary school,Musawa,Katsina,7.84675,12.19198,2,2.62
+55,26981,25294,1757690,1649304,school,Malan Mannir Fura Girke Islamiyya,Primary school,Batsari,Katsina,7.25073,12.87021,3,2.67
+56,25103,25103,1782794,1674408,clinic,Dansarai Primary Health Centre,Primary Health Center,Malumfashi,Katsina,7.7701,11.98815,3,2.7
+57,25558,25087,1808352,1699495,school,Budumuri Primary School,Primary school,Bama,Borno,13.80911,11.42838,2,2.74
+58,28287,25068,1836639,1724563,clinic,Yangeme Health Center,Health Center,Kankara,Katsina,7.54098,11.9198,1,2.78
+59,24992,24992,1861631,1749554,school,Kunamawa Primary School,Primary school,Safana,Katsina,7.38074,12.36367,2,2.82
+60,24932,24932,1886563,1774486,clinic,Turba Maternal And Child Health Clinic,Primary Health Clinic,Isa,Sokoto,6.38494,13.28123,6,2.86
+61,24853,24853,1911416,1799339,school,LGEA Primary Kulegwa,Primary school,Logo,Benue,9.41592,7.55635,2,2.9
+62,24769,24769,1936185,1824108,clinic,Kofa Maternal And Child Health Centre,Primary Health Center,Kusada,Katsina,7.88308,12.44975,3,2.94
+63,24745,24745,1960930,1848853,school,Kwantare Nomadic Primary School,Primary school,Kafin Hausa,Jigawa,10.02449,12.04268,2,2.97
+64,24605,24605,1985535,1873458,school,Madaka Primary School,Primary school,Malumfashi,Katsina,7.75441,11.86475,2,3.01
+65,24580,24580,2010114,1898038,school,Karana Islamiyya School,Primary school,Bunkure,Kano,8.48874,11.613,3,3.05
+66,24521,24521,2034635,1922558,clinic,Yangemu Health Centre,Clinic,Batagarawa,Katsina,7.44052,12.89993,3,3.08
+67,39364,24504,2073999,1947063,school,Universal Basic Education Abubakar Danyaro,Primary school,Zaria,Kaduna,7.75315,11.00156,2,3.14
+68,24360,24360,2098358,1971422,school,Rayya Primary School,Primary school,Talata Mafara,Zamfara,6.03381,12.28503,2,3.18
+69,24245,24186,2122603,1995608,clinic,Mararrabar Danja Health Clinic,Clinic,Kazaure,Jigawa,8.48765,12.65357,1,3.22
+70,24177,24177,2146780,2019785,clinic,Dandoro Primary Health Centre,Primary Health Center,Kankia,Katsina,7.89932,12.56037,3,3.25
+71,24174,24174,2170954,2043959,clinic,Garango Dispensary,,Kankara,Katsina,7.58883,11.84185,1,3.29
+72,24652,24146,2195606,2068105,clinic,Gogon Hako Health Center,Health Center,Batsari,Katsina,7.27845,12.97561,3,3.33
+73,28096,24118,2223702,2092223,clinic,Futu Primary Health Centre,Primary Health Center,Michika,Adamawa,13.45912,10.57611,2,3.37
+74,24073,24073,2247775,2116296,clinic,Diwigi Primary Health Centre,Primary Health Center,Gwiwa,Jigawa,8.3375,12.73315,1,3.41
+75,24710,23995,2272485,2140290,clinic,Janda Primary Health Center,Primary Health Center,Riyom,Plateau,8.80092,9.47624,1,3.45
+76,26735,23913,2299219,2164204,clinic,Obonoma Model Primary Health Center,Primary Health Center,Akuku Toru,Rivers,6.79108,4.71472,3,3.49
+77,23816,23769,2323035,2187973,school,Dadin Kowa Primary School,Primary school,Batsari,Katsina,7.30821,12.74191,2,3.52
+78,23661,23661,2346696,2211633,clinic,Hui Maternal And Child Health Clinic,Primary Health Center,Baure,Katsina,8.78693,12.78317,1,3.56
+79,26074,23594,2372770,2235227,clinic,Zaura Health Post,Health Post,Dawakin Tofa,Kano,8.38894,12.21264,1,3.6
+80,23697,23553,2396467,2258780,clinic,Mondo Primary Health Clinic,Primary Health Clinic,Konshisha,Benue,8.80806,6.96634,1,3.63
+81,23547,23547,2420014,2282327,clinic,Tsubut Health Post,,Gwiwa,Jigawa,8.21891,12.68204,9,3.67
+82,24394,23532,2444408,2305859,school,Kseva Primary School,Primary school,Zuru,Kebbi,5.28236,11.49271,2,3.71
+83,23507,23507,2467915,2329366,school,Jamaa Malan Sani Primary School,Primary school,Zango,Katsina,8.48426,12.94383,2,3.74
+84,23487,23487,2491402,2352853,school,Jinkirawa 1 Primary School,Primary school,Zurmi,Zamfara,6.59612,12.72903,2,3.78
+85,23485,23485,2514887,2376339,school,Gallu Primary School,Primary school,Mashi,Katsina,8.06619,13.1368,2,3.81
+86,23622,23425,2538510,2399763,school,Hamidawa Primary School,Primary school,Wamako,Sokoto,5.14673,12.98342,2,3.85
+87,23399,23399,2561908,2423162,school,Endeshi Primary School,Primary school,Doma,Nasarawa,8.09082,7.99008,2,3.88
+88,26284,23291,2588192,2446452,clinic,Tofai Health Post,Health Post,Gabasawa,Kano,8.83409,12.05597,1,3.92
+89,23242,23242,2611434,2469694,school,Garjang Primary School,Primary school,Damboa,Borno,12.79718,11.02433,2,3.96
+90,23318,23188,2634752,2492882,school,Gauza Primary School,Primary school,Rogo,Kano,7.90551,11.57391,5,3.99
+91,23185,23185,2657937,2516067,clinic,Gidan Adamu Dispensary,Health Post,Maradun,Zamfara,6.31393,12.74066,1,4.03
+92,23158,23158,2681095,2539225,school,Bujawa Primary School,Primary school,Mani,Katsina,8.06717,12.87553,2,4.07
+93,23148,23148,2704243,2562374,school,Nkumoro Community Primary School,Primary school,Izzi,Ebonyi,8.3403,6.54494,2,4.1
+94,23090,23090,2727333,2585463,school,Afurzuna Primary School,Primary school,Kafin Hausa,Jigawa,9.99947,12.30243,1,4.14
+95,23077,23077,2750410,2608540,school,Gandawa Primary School,Primary school,Dambatta,Kano,8.568,12.49001,2,4.17
+96,23072,23072,2773481,2631612,clinic,Karatsa Health Centre,Clinic,Mai'adua,Katsina,8.24965,13.04965,2,4.21
+97,23918,23045,2797399,2654657,school,Unguwar Fulani Primary School,Primary school,Gwandu,Kebbi,4.5841,12.38872,2,4.24
+98,23447,22988,2820847,2677645,school,LEA Primary School Vongbap,Primary school,Langtang North,Plateau,9.8722,9.24923,2,4.28
+99,25952,22872,2846799,2700517,clinic,Ikot Otu Abasi Health Center,Primary Health Center,Akpabuyo,Cross River,8.53021,4.94434,3,4.32
+100,22832,22832,2869631,2723349,clinic,Dan Guro Basic Health Center,Primary Health Clinic,Bungudu,Zamfara,6.54816,12.41258,3,4.35
+101,23083,22808,2892714,2746157,clinic,Jiba Health Centre,Clinic,Sandamu,Katsina,8.39549,12.85727,3,4.39
+102,22768,22768,2915482,2768926,school,Community Primary School Ileaba,Primary school,Odigbo,Ondo,5.0055,6.65737,2,4.42
+103,24567,22743,2940050,2791669,clinic,Jigawa Primary Health Centre,Primary Health Center,Bade,Yobe,10.83413,12.85996,3,4.46
+104,22722,22722,2962771,2814390,school,Fandabba Nomadic Primary School,Primary school,Bebeji,Kano,8.25974,11.5892,2,4.49
+105,24096,22692,2986868,2837083,clinic,Dimgam Health Post,Health Post,Ganye,Adamawa,11.95508,8.44849,3,4.53
+106,22516,22516,3009383,2859599,clinic,Garin Waziri Health Clinic,Clinic,Safana,Katsina,7.2332,12.60942,3,4.56
+107,22499,22499,3031882,2882097,school,Government Day Junior Secondary School Dabawa,Secondary school,Dutsin-Ma,Katsina,7.48272,12.52514,2,4.6
+108,22498,22498,3054380,2904595,school,Madawai Garga Primary School,Primary school,Damban,Bauchi,10.756,11.65644,4,4.63
+109,22484,22484,3076863,2927079,school,Primary Schoolol Kwakwara,Primary school,Safana,Katsina,7.29894,12.39059,2,4.67
+110,22441,22441,3099305,2949520,school,Dabai Model Primary School,Primary school,Danja,Katsina,7.63952,11.37068,7,4.7
+111,22421,22421,3121725,2971940,school,Anguwar Lele Primary School,Primary school,Jega,Kebbi,4.28894,12.30933,2,4.73
+112,22402,22402,3144127,2994342,clinic,Dumama Health Clinic,Clinic,Zurmi,Zamfara,6.46275,12.76748,3,4.77
+113,22376,22376,3166503,3016718,clinic,Rapha Hospital and Maternity,Primary Health Center,Izzi,Ebonyi,8.15512,6.41614,3,4.8
+114,22329,22329,3188832,3039047,clinic,Okpoku Primary Health Centre,Clinic,Ankpa,Kogi,7.74258,7.50567,1,4.83
+115,26265,22319,3215097,3061366,clinic,Kote Health Center,Health Center,Bama,Borno,14.04886,11.41373,2,4.87
+116,26685,22294,3241781,3083661,clinic,Yewuti Primary Health Care Clinic,Primary Health Center,Kwali,Federal Capital Territory,6.92292,8.54773,5,4.92
+117,23439,22224,3265220,3105885,school,Gidan Alfarma Primary School,Primary school,Goronyo,Sokoto,5.64396,13.61515,2,4.95
+118,22221,22221,3287441,3128106,clinic,Wazoji Dispensary,Primary Health Center,Bungudu,Zamfara,6.77553,12.25141,3,4.98
+119,22172,22172,3309613,3150278,school,Hardo Kwaine Primary,Primary school,Warji,Bauchi,9.85362,11.20793,2,5.02
+120,22517,22135,3332131,3172413,clinic,Tudun Doki Health Post,Health Post,Gwadabawa,Sokoto,5.27996,13.40512,3,5.05
+121,22484,22123,3354614,3194536,school,Gidan Jao Pm,Primary school,Talata Mafara,Zamfara,6.16398,12.40318,2,5.09
+122,21978,21978,3376593,3216514,clinic,Jinfin Nawala Health Centre,Clinic,Matazu,Katsina,7.61594,12.16603,1,5.12
+123,22199,21929,3398792,3238443,school,Madara Nusery and Primary School,Primary school,Kafur,Katsina,7.65074,11.6567,2,5.15
+124,21876,21876,3420668,3260319,clinic,Hazo Health Post,,Giwa,Kaduna,7.34678,11.20362,4,5.19
+125,21873,21873,3442541,3282192,school,Wambau Nomadic Primary School,Primary school,Kiru,Kano,8.02052,11.61243,2,5.22
+126,23000,21866,3465541,3304058,clinic,Kubon Primary Health Care,Primary Health Center,Mangu,Plateau,9.07027,9.4258,3,5.25
+127,22911,21820,3488452,3325878,school,Mekiya Primary School,Primary school,Gabasawa,Kano,8.87236,12.23807,2,5.29
+128,21810,21810,3510262,3347688,school,Kwashi Primary School,Primary school,Baure,Katsina,8.90064,12.7172,2,5.32
+129,29282,21789,3539544,3369477,clinic,Wassa Qatar Primary Health Centre,Primary Health Center,Abuja Municipal,Federal Capital Territory,7.47774,8.87522,1,5.37
+130,26149,21717,3565693,3391194,clinic,Dabah Dispensary,Health Post,Kaura Namoda,Zamfara,6.54341,12.64142,3,5.41
+131,26166,21704,3591860,3412898,school,Lim Kasa Primary School,Primary school,Tafawa-Balewa,Bauchi,9.39793,9.76012,2,5.45
+132,22251,21657,3614111,3434555,clinic,Lakalkal Health Post,Health Post,Billiri,Gombe,11.0865,9.86207,1,5.48
+133,22375,21621,3636486,3456175,school,Dokoki Primary School,Primary school,Birni Kudu,Jigawa,9.35054,11.45754,2,5.51
+134,23050,21583,3659536,3477758,clinic,Maje Primary Health Centre,Clinic,Taura,Jigawa,9.38043,12.24217,1,5.55
+135,21565,21565,3681101,3499323,clinic,Garin Malam Health Post,Clinic,Gamawa,Bauchi,10.79795,12.0556,1,5.58
+136,23609,21551,3704710,3520875,school,Kwalele Islamiyya Primary School,Primary school,Warawa,Kano,8.71567,11.9242,2,5.62
+137,21519,21519,3726229,3542394,clinic,Njoboli Primary Health Centre,Primary Health Center,Yola South,Adamawa,12.58797,9.20093,7,5.65
+138,23335,21510,3749565,3563904,school,District Council Basic School Mumuni,Primary school,Surulere,Oyo,4.34682,8.1278,2,5.69
+139,21433,21433,3770998,3585337,school,Nursery And Primary School Mbawega,Primary school,Katsina-Ala,Benue,9.42011,7.46321,2,5.72
+140,21526,21420,3792523,3606756,clinic,Kunduwa Health Clinic,Clinic,Dutsin-Ma,Katsina,7.58755,12.52879,1,5.75
+141,23658,21413,3816182,3628169,school,Daura Primary School,Primary school,Danja,Katsina,7.52516,11.39716,2,5.79
+142,23745,21411,3839927,3649580,clinic,Buzawa Primary Health Centre,Primary Health Center,Itas/Gadau,Bauchi,9.7038,11.7685,5,5.82
+143,21661,21364,3861588,3670944,clinic,Kibori Ecwa Health Clinic,Clinic,Zango-Kataf,Kaduna,8.41949,9.84509,3,5.85
+144,21363,21363,3882951,3692306,clinic,Bugaje Model Primary Health Center,Primary Health Center,Jibia,Katsina,7.49136,12.98747,3,5.89
+145,21540,21350,3904491,3713656,school,Karan Kazo Primary School,Primary school,Ingawa,Katsina,7.99975,12.63155,1,5.92
+146,21334,21334,3925825,3734991,school,Gingin Annex Primary School,Primary school,Musawa,Katsina,7.82623,12.10124,2,5.95
+147,21240,21240,3947065,3756231,clinic,Dabji Health Post,Health Post,Misau,Bauchi,10.52067,11.35641,1,5.98
+148,21235,21235,3968300,3777466,clinic,Aisha Health Clinic,Clinic,Bungudu,Zamfara,6.86898,12.17406,3,6.02
+149,21194,21194,3989494,3798659,school,Tunubo Primary School,Primary school,Jahun,Jigawa,9.39871,11.91789,2,6.05
+150,21168,21168,4010661,3819827,school,Ngaji Bauchi Junior Secondary School,Secondary school,Kwami,Gombe,11.33666,10.51552,4,6.08
+151,21261,21157,4031922,3840984,clinic,Udei Comprehensive Health Center,Primary Health Center,Guma,Benue,8.55305,8.07921,1,6.11
+152,21136,21136,4053059,3862120,school,Zangon Fado Primary School,Primary school,Dutse,Jigawa,9.2814,11.8391,2,6.15
+153,21119,21119,4074177,3883239,school,Great Hope International Nursery and Primary School,Primary school,Ohaukwu,Ebonyi,8.0063,6.71032,2,6.18
+154,21084,21084,4095261,3904323,clinic,Brizik Divine Favour Health Center,Primary Health Center,Onicha,Ebonyi,7.75806,6.10484,1,6.21
+155,21078,21078,4116340,3925401,school,Maganga Primary School,Primary school,Goronyo,Sokoto,5.58817,13.49754,2,6.24
+156,21068,21068,4137407,3946469,school,Lango Primary School,Primary school,Mashi,Katsina,8.01728,13.03109,2,6.27
+157,21969,21044,4159377,3967513,clinic,Yan Lami Health Post,Health Post,Bichi,Kano,8.33775,12.32024,5,6.31
+158,21024,21024,4180400,3988536,school,Nduku I Primary School,Primary school,Mubi South,Adamawa,13.21877,10.12847,2,6.34
+159,22503,21016,4202904,4009553,school,Junior Secondary School Sauda,Secondary school,Mubi South,Adamawa,13.41006,10.14675,6,6.37
+160,27357,20991,4230261,4030544,school,Kubu Primary School,Primary school,Madagali,Adamawa,13.3901,10.85767,2,6.41
+161,21128,20986,4251389,4051530,clinic,Our Heritage Polyclinic Clinic,Unknown,Irele,Ondo,4.85459,6.49427,1,6.45
+162,20982,20982,4272370,4072512,school,LEA Primary School Koda,Primary school,Kwali,Federal Capital Territory,7.09711,8.6674,2,6.48
+163,20978,20978,4293348,4093490,clinic,Sharaf Dispensary,Health Post,Ningi,Bauchi,9.5142,11.3031,3,6.51
+164,22329,20893,4315677,4114383,school,Ohuinyi Community Primary School Onuji,Primary school,Ishielu,Ebonyi,7.77873,6.34221,2,6.54
+165,20890,20890,4336568,4135273,school,Tumba Primary School,Primary school,Bakura,Zamfara,5.80673,12.83217,2,6.58
+166,20844,20844,4357412,4156117,clinic,Todai Health Clinic,Clinic,Ingawa,Katsina,8.12684,12.71994,1,6.61
+167,21080,20793,4378492,4176910,clinic,Gora Kwachido Primary Health Centre,Primary Health Center,Gwandu,Kebbi,4.72559,12.40801,1,6.64
+168,24139,20784,4402631,4197694,school,Kauyen Sono Primary School,Primary school,Kurfi,Katsina,7.49156,12.72877,2,6.68
+169,22283,20775,4424915,4218469,school,Waro Primary School,Primary school,Gabasawa,Kano,8.92489,12.07548,2,6.71
+170,20709,20709,4445624,4239178,clinic,Unguwar Alher Health Clinic,Health Post,Bakori,Katsina,7.51047,11.54382,1,6.74
+171,20726,20690,4466350,4259869,school,Kora Primary School,Primary school,Buji,Jigawa,9.67227,11.38673,2,6.77
+172,21755,20645,4488106,4280514,school,Unguwar Inji Primary School,Primary school,Funtua,Katsina,7.22303,11.48802,2,6.8
+173,25778,20642,4513884,4301156,school,Yalwar Makama Primary School,Primary school,Gaya,Kano,9.12841,11.75966,2,6.84
+174,21253,20622,4535136,4321778,clinic,Taurarin Doka Health Centre,Clinic,Kankia,Katsina,7.78131,12.56928,2,6.88
+175,20614,20614,4555750,4342392,school,Nomadic Primary School Unguwan Sarki Fulani,Primary school,Giwa,Kaduna,7.43803,11.35601,2,6.91
+176,20605,20605,4576355,4362996,clinic,Kafin Bubari Primary Health Centre,Health Post,Misau,Bauchi,10.52285,11.48856,3,6.94
+177,20591,20591,4596946,4383588,school,Kalkutan Primary School,Primary school,Kiyawa,Jigawa,9.66969,11.91377,2,6.97
+178,20573,20573,4617520,4404161,clinic,Birnin Lafiya Primary Health Centre,Clinic,Argungu,Kebbi,4.25967,12.58569,3,7.0
+179,20537,20537,4638057,4424698,school,Nagarawa Dakko Primary School,Primary school,Bakura,Zamfara,5.76714,12.29048,2,7.03
+180,21800,20500,4659857,4445198,clinic,Oju Ala Primary Health Clinic,Primary Health Clinic,Ese-Odo,Ondo,4.87732,6.40808,1,7.07
+181,20751,20377,4680608,4465575,clinic,Makera Health Clinic,Clinic,Birnin Magaji,Zamfara,6.79778,12.42916,1,7.1
+182,21872,20328,4702480,4485903,clinic,Ayankaa Igba Ukyor Ikyoy Clinic and Maternity,Primary Health Clinic,Ushongo,Benue,9.32532,7.06136,1,7.13
+183,20273,20273,4722753,4506177,clinic,Atuman Health Post,Health Post,Jahun,Jigawa,9.49672,12.07704,3,7.16
+184,21554,20258,4744307,4526435,school,Leno Abuna Primary School,Primary school,Bama,Borno,13.95413,11.42397,1,7.19
+185,23472,20250,4767779,4546684,school,Jiyayya Primary School,Primary school,Ajingi,Kano,9.09256,11.98137,2,7.23
+186,20204,20204,4787983,4566889,clinic,Etane Primary Health Centre,Primary Health Center,Kalgo,Kebbi,4.03033,12.24248,3,7.26
+187,20253,20184,4808237,4587073,school,Dankanjiba Model Primary School,Primary school,Kafur,Katsina,7.82304,11.76788,4,7.29
+188,20165,20165,4828401,4607237,clinic,Tsamiya Maternity Health Centre,Clinic,Darazo,Bauchi,10.44756,11.05569,3,7.32
+189,20138,20138,4848539,4627375,school,Gidan Baruwa Primary School,Primary school,Jahun,Jigawa,9.48355,11.9457,2,7.35
+190,26706,20023,4875245,4647398,clinic,Amaka Primary Health Center,Primary Health Center,Igalamela-Odolu,Kogi,7.34422,7.06766,1,7.39
+191,20610,20019,4895855,4667417,school,Primary School Kokkfi Musa,Primary school,Sandamu,Katsina,8.41112,13.00689,2,7.42
+192,20013,20013,4915868,4687430,school,Isilamiya Primary School,Primary school,Babura,Jigawa,8.96493,12.60242,4,7.45
+193,20009,20009,4935877,4707439,clinic,Murai Dispensary,Health Post,Birnin Magaji,Zamfara,6.88327,12.31015,1,7.48
+194,23263,20006,4959140,4727445,school,Bungudawa Primary School,Primary school,Kaura Namoda,Zamfara,6.69191,12.32013,2,7.52
+195,19961,19961,4979101,4747406,school,Kuruku Primary School,Primary school,Funtua,Katsina,7.29392,11.28351,2,7.55
+196,19916,19916,4999017,4767322,school,LGEA Primary School Ngobua,Primary school,Katsina-Ala,Benue,9.49802,7.4613,2,7.58
+197,19902,19902,5018919,4787224,clinic,Babuwuri Health Post,Health Post,Itas/Gadau,Bauchi,10.12091,12.01007,1,7.61
+198,19877,19877,5038796,4807100,school,Shakawo Primary Schooo,Primary school,Bunza,Kebbi,3.96598,12.16845,2,7.64
+199,21862,19869,5060658,4826969,school,Gidan Daji Nomadic Primary School,Primary school,Kibiya,Kano,8.68449,11.44956,2,7.67
+200,19866,19866,5080524,4846835,school,Najeje Primary School,Primary school,Shomgom,Gombe,11.29788,9.62853,2,7.7

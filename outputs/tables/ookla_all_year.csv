@@ -1,0 +1,5 @@
+quarter,source,tiles,tests,dsn_tiles,dsn_tiles_identical,rule_extra,rule_missing
+2024 Q1,s3://ookla-open-data/parquet/performance/type=mobile/year=2024/quarter=1/2024-01-01_performance_mobile_tiles.parquet,6713,30415,,,,
+2024 Q2,s3://ookla-open-data/parquet/performance/type=mobile/year=2024/quarter=2/2024-04-01_performance_mobile_tiles.parquet,7552,32508,,,,
+2024 Q3,s3://ookla-open-data/parquet/performance/type=mobile/year=2024/quarter=3/2024-07-01_performance_mobile_tiles.parquet,8818,41687,,,,
+2024 Q4,s3://ookla-open-data/parquet/performance/type=mobile/year=2024/quarter=4/2024-10-01_performance_mobile_tiles.parquet,9231,42835,9234.0,9234.0,3.0,6.0

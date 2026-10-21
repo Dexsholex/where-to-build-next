@@ -1,0 +1,40 @@
+status,claim,printed,recomputed,how
+PASS,Ookla tiles,9234,9234,DSN GeoPackage row count
+PASS,Ookla tests,42838,42838,"DSN GeoPackage, sum of tests"
+PASS,"Release match: mobile Q4 2024, all sampled tiles identical",True,True,outputs/tables/ookla_release.csv
+PASS,DSN tiles identical to Ookla's public Q4 2024 file (all tiles),9234,9234,"outputs/tables/ookla_all_year.csv, written by step 02b from the public file"
+PASS,Tiles labelled urban (%),93.2,93.2,rasterio.sample on raw lon/lat
+PASS,Tiles meeting the plan's speed (%),39.9,39.9,raw speeds against 25/10 Mbps with the re-sampled labels
+PASS,"Average download where people test, urban (Mbps, weighted by tests)",52.2,52.2,"raw file, re-sampled labels"
+PASS,"Average latency where people test, urban (ms, weighted by tests)",56.3,56.3,"raw file, re-sampled labels"
+PASS,"Average download where people test, rural (Mbps, weighted by tests)",22.9,22.9,"raw file, re-sampled labels"
+PASS,"Average latency where people test, rural (ms, weighted by tests)",53.8,53.8,"raw file, re-sampled labels"
+PASS,Rural tiles,628,628,re-sampled labels
+PASS,Town tiles reaching 25 Mbps (%),38.9,38.9,"raw speeds, re-sampled labels"
+PASS,Population on the grid (millions),205.6,205.6,sum of grid cells
+PASS,Four needs add up to the population (millions),205.6,205.6,headline classes (each rounded to 0.01 M) vs grid
+PASS,"Triage of 3,000 random cells, great-circle recomputation (% agreeing)",100.0,100.0,haversine on raw coordinates; small differences at the 2 km edge are expected
+PASS,People reached by the first 100 sites (efficiency),3120421,3110842,brute-force great-circle coverage of rural-gap cells
+PASS,People reached by the first 100 sites (equity),2869631,2859124,brute-force great-circle coverage of rural-gap cells
+PASS,Poorer people per km2 of gap under the 100 poorest-first sites,482,482,brute-force great-circle coverage
+PASS,"Best single site in Ningi, poorer people reached",20978,21069,"every raw host inside the LGA polygon, great-circle 5 km"
+PASS,"Best single site in Fune, poorer people reached",17316,17316,"every raw host inside the LGA polygon, great-circle 5 km"
+PASS,"Best single site in Wasagu/Danko, poorer people reached",18936,18936,"every raw host inside the LGA polygon, great-circle 5 km"
+PASS,"Best single site in Ganjuwa, poorer people reached",12212,12617,"every raw host inside the LGA polygon, great-circle 5 km"
+PASS,"Best single site in Gamawa, poorer people reached",25900,25900,"every raw host inside the LGA polygon, great-circle 5 km"
+PASS,Priority LGAs whose best site reaches fewer than the 100th poorest-first site,4,4,brute-force recomputation above
+PASS,People in rural gaps with no test in any quarter of 2024 (%),95.9,95.1,"haversine to Q1-Q3 tiles for 6,000 random rural-gap cells (a sample, so within 1.5 points)"
+PASS,Cumulative reach never falls (both objectives),True,True,site tables
+PASS,Efficiency reaches more people than equity at every budget,True,True,budgets.csv
+PASS,Equity reaches more poorer people than efficiency at every budget,True,True,budgets.csv
+PASS,Poorer group is 40% of people with a wealth score (%),40.0,40.0,grid wealth scores
+NOTE,"People reached per site, first 100 (efficiency): median and largest",-,"28,932 and 63,447 (LGEA Primary School Gbandepev)",sites_efficiency.csv
+PASS,All 55 key numbers appear in the PDF as computed,none missing,none missing,text extracted from the PDF
+PASS,"Dashboard sites match the tables (3 host sets x 2 objectives, all ranks)",True,True,data embedded in the HTML
+PASS,Equity runs count people outside the poorer 40% too (coverage of all gap cells),True,True,budgets.csv
+PASS,Schools used as candidates (inside an LGA),204355,204355,fresh spatial join of the raw GRID3 schools file
+PASS,Dashboard Ookla tiles,9234,9234,data embedded in the HTML
+PASS,"Dashboard LGA totals match the LGA table (coverage_poorer, thousands)",53036,53036,data embedded in the HTML
+PASS,"Dashboard LGA totals match the LGA table (measure, thousands)",64444,64444,data embedded in the HTML
+PASS,"Dashboard LGA totals match the LGA table (capacity, thousands)",22107,22106,data embedded in the HTML
+PASS,LGA rural-poor-no-evidence totals add up to the national figure (millions),53.1,53.0,lga_summary.csv

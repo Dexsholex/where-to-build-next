@@ -1,0 +1,14 @@
+# Python 3.14.7. Versions used for the 21 October 2026 run.
+fpdf2==2.8.8
+geopandas==1.1.4
+matplotlib==3.11.2
+numpy==2.5.3
+pandas==3.0.5
+pillow==12.3.0
+pyarrow==25.0.1
+pymupdf==1.28.2
+pyogrio==0.13.0
+pyproj==3.8.0
+rasterio==1.5.1
+scipy==1.16.3
+shapely==2.1.2

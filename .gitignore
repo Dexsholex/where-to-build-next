@@ -1,0 +1,7 @@
+# downloads are fetched and checksummed by scripts/01_download.py
+data/raw/*
+!data/raw/PROVENANCE.csv
+data/processed/
+# a copy of index.html written by scripts/06_dashboard.py
+outputs/dashboard/
+__pycache__/
