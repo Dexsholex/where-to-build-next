@@ -81,15 +81,16 @@ h2 { margin: 0; font: 700 18px var(--font-display); font-stretch: 105%; }
 .view { display: grid; gap: 8px; }
 [hidden] { display: none !important; }
 #csvfallback { width: 100%; height: 120px; font: 12px var(--font-data); }
-.mapwrap { position: relative; min-width: 0; }
+.mapwrap { min-width: 0; align-self: start; position: sticky; top: 16px; display: grid; gap: 10px; }
+.mapbox { position: relative; }
 #map { height: min(78vh, 860px); min-height: 460px; border-radius: 10px; border: 1px solid var(--line); background: var(--map-bg); }
-.layers, .legend { position: absolute; z-index: 500; background: rgba(255,255,255,.94); color: #14201b; border-radius: 8px;
-  border: 1px solid #dbe2de; padding: 9px 11px; font-size: 12.5px; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
-.layers { top: 10px; right: 10px; display: grid; gap: 4px; }
+.layers { position: absolute; z-index: 500; background: rgba(255,255,255,.94); color: #14201b; border-radius: 8px;
+  border: 1px solid #dbe2de; padding: 9px 11px; font-size: 12.5px; box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  top: 10px; right: 10px; display: grid; gap: 4px; }
 .layers label { display: flex; gap: 6px; align-items: center; cursor: pointer; }
-.legend { left: 10px; bottom: 10px; display: grid; gap: 3px; max-width: 290px; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; font-size: 12.5px; color: var(--ink); }
 .legend b { font-family: var(--font-data); font-weight: 500; }
-.legend .ttl { font-weight: 600; margin-bottom: 2px; }
+.legend .ttl { font-weight: 600; flex-basis: 100%; }
 .pin { width: 22px; height: 22px; border-radius: 50%; background: #ffd23f; border: 2px solid #14201b; color: #14201b;
   font: 600 11px/18px var(--font-data); text-align: center; box-sizing: border-box; }
 .leaflet-container { font-family: var(--font-body); background: var(--map-bg); }
@@ -102,7 +103,7 @@ h2 { margin: 0; font: 700 18px var(--font-display); font-stretch: 105%; }
 .about ol, .about ul { padding-left: 1.2em; margin: 0; display: grid; gap: 6px; }
 .about .src { color: var(--muted); font-size: 13px; }
 .fine { font-size: 12.5px; color: var(--muted); }
-@media (max-width: 900px) { .app { grid-template-columns: 1fr; } .mapwrap { order: -1; } #map { height: 62vh; min-height: 380px; } }
+@media (max-width: 900px) { .app { grid-template-columns: 1fr; } .mapwrap { order: -1; position: static; } #map { height: 62vh; min-height: 380px; } }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
 </style>
 
@@ -176,11 +177,13 @@ h2 { margin: 0; font: 700 18px var(--font-display); font-stretch: 105%; }
   </section>
 
   <section class="mapwrap" aria-label="Map">
+    <div class="mapbox">
     <div id="map"></div>
     <div class="layers">
       <label><input type="checkbox" id="lyr-triage" checked> What each area needs</label>
       <label><input type="checkbox" id="lyr-lga" checked> LGA details on hover</label>
       <label><input type="checkbox" id="lyr-tiles"> Ookla speed tests</label>
+    </div>
     </div>
     <div class="legend" id="legend"></div>
   </section>
