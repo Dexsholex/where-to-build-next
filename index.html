@@ -83,7 +83,7 @@ h2 { margin: 0; font: 700 18px var(--font-display); font-stretch: 105%; }
 #csvfallback { width: 100%; height: 120px; font: 12px var(--font-data); }
 .mapwrap { min-width: 0; align-self: start; position: sticky; top: 16px; display: grid; gap: 10px; }
 .mapbox { position: relative; }
-#map { height: min(78vh, 860px); min-height: 460px; border-radius: 10px; border: 1px solid var(--line); background: var(--map-bg); }
+#map { height: clamp(340px, calc(100vh - 150px), 820px); border-radius: 10px; border: 1px solid var(--line); background: var(--map-bg); }
 .layers { position: absolute; z-index: 500; background: rgba(255,255,255,.94); color: #14201b; border-radius: 8px;
   border: 1px solid #dbe2de; padding: 9px 11px; font-size: 12.5px; box-shadow: 0 1px 3px rgba(0,0,0,.08);
   top: 10px; right: 10px; display: grid; gap: 4px; }
@@ -257,7 +257,10 @@ const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;",
 })();
 
 // ---------------------------------------------------------------- map
-const map = L.map("map", { zoomSnap: 0.25, attributionControl: true, preferCanvas: false });
+const map = L.map("map", { zoomSnap: 0.25, attributionControl: true, preferCanvas: false, scrollWheelZoom: false });
+// wheel zoom only after a click on the map, so scrolling the page over it does not zoom by accident
+map.on("click", () => map.scrollWheelZoom.enable());
+map.on("mouseout", () => map.scrollWheelZoom.disable());
 map.attributionControl.setPrefix(false);
 map.attributionControl.addAttribution("Speedtest® by Ookla® Q4 2024 · Meta · GHSL · GRID3 · OCHA");
 const b = D.bounds;
